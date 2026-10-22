@@ -65,12 +65,23 @@ function idle(fn: () => void) {
   }
 }
 
+type LoadOptions = {
+  /**
+   * When true, only the first batch loads immediately. The rest is pulled in
+   * by `prioritizeSequence()` around the current playhead. This prevents the
+   * active section from silently downloading the entire folder while idle.
+   */
+  focusOnly?: boolean;
+  initialFraction?: number;
+};
+
 function startEntry(
   seqId: string,
   folder: string,
   total: number,
   poster: string,
-  stride: number
+  stride: number,
+  opts: LoadOptions = {}
 ) {
   const existing = cache.get(seqId);
   if (existing) {
@@ -89,12 +100,16 @@ function startEntry(
     lastUsed: performance.now(),
   };
   cache.set(seqId, entry);
+  const focusOnly = opts.focusOnly ?? false;
 
   const srcIndexFor = (slot: number) => 1 + (slot - 1) * stride; // 1-based frame in folder
   const urlFor = (folder2: string, i: number) =>
     `${folder2}/f${String(i).padStart(4, "0")}.webp`;
 
-  const first = Math.max(1, Math.round(slots * 0.1));
+  const first = Math.max(
+    1,
+    Math.round(slots * (opts.initialFraction ?? 0.1))
+  );
   const inflight = new Set<number>();
 
   const push = (slot: number) => {
@@ -117,20 +132,25 @@ function startEntry(
   };
   entry.push = push;
 
-  // Phase 1 — first 10% at once
+  // Phase 1 — the initial batch loads immediately.
+  // Focus-only sequences stop here and rely on `prioritizeSequence()`.
   for (let i = 1; i <= first; i++) push(i);
 
-  // Phase 2 — background, in-flight capped, parked at idle
-  let idx = first + 1;
-  const pump = () => {
-    if (cache.get(seqId) !== entry) return;
-    if (idx > slots) return;
-    while (idx <= slots && inflight.size < MAX_INFLIGHT) {
-      push(idx++);
-    }
-    if (idx <= slots) idle(pump);
-  };
-  setTimeout(() => idle(pump), 450); // let the initial burst win
+  // Phase 2 — background, in-flight capped, parked at idle.
+  // Skipped for focus-only sequences (hero / CTA) so they do not silently
+  // download the whole folder while the user is still on another section.
+  if (!focusOnly) {
+    let idx = first + 1;
+    const pump = () => {
+      if (cache.get(seqId) !== entry) return;
+      if (idx > slots) return;
+      while (idx <= slots && inflight.size < MAX_INFLIGHT) {
+        push(idx++);
+      }
+      if (idx <= slots) idle(pump);
+    };
+    setTimeout(() => idle(pump), 450); // lets the initial burst win
+  }
   return entry;
 }
 
@@ -139,9 +159,10 @@ export function loadSequence(
   folder: string,
   total: number,
   poster: string,
-  stride = 1
+  stride = 1,
+  opts: LoadOptions = {}
 ) {
-  return startEntry(seqId, folder, total, poster, stride);
+  return startEntry(seqId, folder, total, poster, stride, opts);
 }
 
 /**

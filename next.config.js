@@ -30,7 +30,28 @@ const nextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1280, 1600],
   },
   async headers() {
-    return [{ source: "/:path*", headers: securityHeaders }];
+    return [
+      {
+        source: "/frames/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            // Frame folders are content-stable and namespaced per sequence.
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+      {
+        source: "/images/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=604800, stale-while-revalidate=86400",
+          },
+        ],
+      },
+      { source: "/:path*", headers: securityHeaders },
+    ];
   },
 };
 

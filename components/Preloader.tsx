@@ -16,13 +16,13 @@ export default function Preloader() {
     }
     sessionStorage.setItem("sh-pre", "1");
     const start = performance.now();
-    const dur = 1300;
+    const dur = 350;
     let raf = 0;
     const tick = (t: number) => {
       const p = Math.min(1, (t - start) / dur);
       setCount(Math.round(p * 100));
       if (p < 1) raf = requestAnimationFrame(tick);
-      else setTimeout(() => setDone(true), 160);
+      else setDone(true);
     };
     raf = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(raf);

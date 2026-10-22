@@ -9,6 +9,7 @@ import Cta from "@/components/home/Cta";
 import Newsletter from "@/components/home/Newsletter";
 import { site } from "@/data/site";
 import { pageMetadata } from "@/lib/seo";
+import { preload } from "react-dom";
 
 export const metadata = pageMetadata({
   title: "SATELLITE® — Sneakers Built From Motion",
@@ -17,6 +18,12 @@ export const metadata = pageMetadata({
 });
 
 export default function HomePage() {
+  // Warm the hero LCP image ahead of client hydration.
+  preload("/images/hero-poster.webp", {
+    as: "image",
+    fetchPriority: "high",
+  });
+
   return (
     <>
       <Hero />

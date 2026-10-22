@@ -105,11 +105,26 @@ export default function FrameSequence({
       isMobile && cfg.mobileFolder ? cfg.mobileFolder : cfg.folder;
     const key = folder; // hero + cta share the v1 cache
 
+    /**
+     * Mobile poster mapping. Posters that live inside a frame folder have
+     * half-resolution /m variants with the SAME frame numbering (mobile is
+     * half-res, not half-count), so the swap is a pure folder rename.
+     * Standalone posters outside the folder (hero art in /images) are shared.
+     */
+    const posterSrc =
+      isMobile && cfg.mobileFolder && cfg.poster.startsWith(cfg.folder)
+        ? cfg.poster.replace(cfg.folder, cfg.mobileFolder)
+        : cfg.poster;
+
     // Default policy: every sequence autoplays except /frames/v1 (hero + CTA).
     // The folder exclusion wins; an explicit autoLoop={false} can disable a
     // single non-v1 instance, but nothing can force the v1 folder to loop.
     const autoLoopEnabled =
       !isAutoLoopExcluded(folder) && (autoLoop ?? true);
+
+    // Only the hero gets an immediate critical load. The CTA and all later
+    // sections load when their viewport gate says they are near.
+    const isHero = cfg.id === "hero";
 
     const canvas = canvasRef.current!;
     const ctx = canvas.getContext("2d", { alpha: false })!;
@@ -122,7 +137,7 @@ export default function FrameSequence({
       poster = posterImg;
       if (dipS.display <= 1) drawPosterNow();
     };
-    posterImg.src = cfg.poster;
+    posterImg.src = posterSrc;
 
     const drawCover = (img: HTMLImageElement | HTMLCanvasElement | ImageBitmap) => {
       const cw = canvas.width;
@@ -197,9 +212,11 @@ export default function FrameSequence({
 
     /* ---------- loading ---------- */
     const ensure = () => {
-      loadSequence(key, folder, cfg.frames, cfg.poster, stride);
+      // hero + CTA are scroll-driven and should not quietly download the full folder
+      const focusOnly = folder.startsWith("/frames/v1");
+      loadSequence(key, folder, cfg.frames, posterSrc, stride, { focusOnly });
     };
-    ensure();
+    if (isHero) ensure();
 
     let raf = 0;
     let lastTime = performance.now();
