@@ -1,0 +1,303 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f2f0eb;
+  --ink: #0a0a0a;
+  --accent: #ff3b00;
+  --grey-1: #d9d6cf;
+  --grey-2: #5f5c56;
+  --invert-bg: #0a0a0a;
+  --invert-ink: #f2f0eb;
+
+  /* channel triplets for Tailwind alpha modifiers */
+  --bg-rgb: 242 240 235;
+  --ink-rgb: 10 10 10;
+  --accent-rgb: 255 59 0;
+  --grey-1-rgb: 217 214 207;
+  --grey-2-rgb: 95 92 86;
+  --invert-bg-rgb: 10 10 10;
+  --invert-ink-rgb: 242 240 235;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: initial; /* Lenis owns scrolling */
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body), "Space Grotesk", sans-serif;
+  overflow-x: clip;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+/* Thick visible focus for a11y */
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .cursor-none-desktop,
+  .cursor-none-desktop * {
+    cursor: none;
+  }
+
+  /* Keep real cursors where a crosshair would get in the way of typing. */
+  .cursor-none-desktop input,
+  .cursor-none-desktop textarea,
+  .cursor-none-desktop select,
+  .cursor-none-desktop [contenteditable="true"] {
+    cursor: auto;
+  }
+}
+
+/* Global crosshair cursor — fine-pointer desktop only. */
+.crosshair-cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  width: 28px;
+  height: 28px;
+  pointer-events: none;
+  opacity: 0;
+  mix-blend-mode: difference;
+  transition:
+    width 0.18s cubic-bezier(0.22, 1, 0.36, 1),
+    height 0.18s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.12s linear;
+}
+
+.crosshair-cursor[data-hover="true"] {
+  width: 40px;
+  height: 40px;
+}
+
+.crosshair-bar,
+.crosshair-dot {
+  position: absolute;
+  display: block;
+  background: #fff;
+}
+
+.crosshair-bar-top,
+.crosshair-bar-bottom {
+  left: 50%;
+  width: 1px;
+  height: 34%;
+  transform: translateX(-50%);
+}
+
+.crosshair-bar-top {
+  top: 0;
+}
+
+.crosshair-bar-bottom {
+  bottom: 0;
+}
+
+.crosshair-bar-left,
+.crosshair-bar-right {
+  top: 50%;
+  width: 34%;
+  height: 1px;
+  transform: translateY(-50%);
+}
+
+.crosshair-bar-left {
+  left: 0;
+}
+
+.crosshair-bar-right {
+  right: 0;
+}
+
+.crosshair-dot {
+  left: 50%;
+  top: 50%;
+  width: 3px;
+  height: 3px;
+  transform: translate(-50%, -50%);
+}
+
+/* Crosshair lines scale with the target so the reticle stays balanced. */
+.crosshair-cursor[data-hover="true"] .crosshair-bar-top,
+.crosshair-cursor[data-hover="true"] .crosshair-bar-bottom {
+  height: 30%;
+}
+
+.crosshair-cursor[data-hover="true"] .crosshair-bar-left,
+.crosshair-cursor[data-hover="true"] .crosshair-bar-right {
+  width: 30%;
+}
+
+/* Scroll reveal — hidden state is only applied after JS has observed the
+   element, so no-JS visitors still see every section. */
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 28px, 0);
+  transition:
+    opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.reveal[data-reveal="left"] {
+  transform: translate3d(-28px, 0, 0);
+}
+
+.reveal[data-reveal="right"] {
+  transform: translate3d(28px, 0, 0);
+}
+
+.reveal[data-reveal="fade"] {
+  transform: none;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.reveal:not(.is-visible) {
+  will-change: opacity, transform;
+}
+
+/* Brutalist buttons */
+.btn-brut {
+  @apply inline-flex items-center justify-center gap-2 border-2 border-ink bg-bg font-mono text-xs uppercase tracking-[0.15em] px-6 py-3 text-ink;
+  transition: background 0.15s linear, color 0.15s linear, box-shadow 0.15s linear, transform 0.15s linear;
+  box-shadow: 4px 4px 0 var(--ink);
+}
+.btn-brut:hover {
+  background: var(--ink);
+  color: var(--bg);
+  box-shadow: 0 0 0 var(--ink);
+  transform: translate(2px, 2px);
+}
+.btn-brut-accent {
+  box-shadow: 4px 4px 0 var(--accent);
+}
+.btn-brut-accent:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+  box-shadow: 0 0 0 var(--accent);
+}
+.btn-brut-invert {
+  @apply border-2 border-invertink bg-invertbg text-invertink;
+  box-shadow: 4px 4px 0 var(--invert-ink);
+}
+.btn-brut-invert:hover {
+  background: var(--invert-ink);
+  color: var(--invert-bg);
+  box-shadow: 0 0 0 var(--invert-ink);
+}
+
+/* Mono metadata label */
+.meta {
+  @apply font-mono text-[10px] uppercase tracking-[0.2em] text-grey2;
+}
+
+/* Section number chip */
+.section-index {
+  @apply font-mono text-[10px] tracking-[0.3em] text-grey2 border border-ink/20 px-2 py-1;
+}
+
+/* Giant display headline */
+.display-xl {
+  font-family: var(--font-display), "Archivo Black", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  line-height: 0.92;
+  font-size: clamp(2.9rem, 12vw, 14rem);
+}
+
+.display-lg {
+  font-family: var(--font-display), "Archivo Black", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+  font-size: clamp(2.2rem, 6vw, 5.5rem);
+}
+
+/* Type that sits directly on film stills */
+.film-type {
+  text-shadow: 0 4px 28px rgba(10, 10, 10, 0.4);
+}
+
+/* Marquee strips */
+@keyframes marquee-x {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-x linear infinite;
+}
+
+/* Hard-cornered everything */
+* {
+  border-radius: 0 !important;
+}
+
+/* Crosshair decorations */
+.crosshair {
+  position: relative;
+}
+.crosshair::before,
+.crosshair::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+}
+.crosshair::before {
+  left: -7px;
+  top: -7px;
+  border-left: 2px solid currentColor;
+  border-top: 2px solid currentColor;
+}
+.crosshair::after {
+  right: -7px;
+  bottom: -7px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+}
+
+/* Dashed divider */
+.dash-div {
+  border-top: 2px dashed var(--ink);
+}
+
+/* Chapter text hard-in */
+@keyframes chapter-in {
+  0% { transform: translateY(30px); opacity: 0; clip-path: inset(0 0 100% 0); }
+  100% { transform: translateY(0); opacity: 1; clip-path: inset(0 0 0 0); }
+}
+.chapter-in {
+  animation: chapter-in 0.35s cubic-bezier(0.9, 0, 0.1, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track,
+  .chapter-in {
+    animation: none !important;
+  }
+
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

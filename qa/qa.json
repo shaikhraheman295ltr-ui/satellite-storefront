@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "height": 17256,
+    "vh": 900,
+    "sections": [
+      {
+        "i": 0,
+        "label": "Hero — Phantom Runner GT",
+        "top": 0,
+        "h": 3780
+      },
+      {
+        "i": 1,
+        "label": "manifesto-title",
+        "top": 3908,
+        "h": 1066
+      },
+      {
+        "i": 2,
+        "label": "Craft — making of the sneaker",
+        "top": 4974,
+        "h": 3062
+      },
+      {
+        "i": 3,
+        "label": "details-title",
+        "top": 8036,
+        "h": 2702
+      },
+      {
+        "i": 4,
+        "label": "featured-title",
+        "top": 10738,
+        "h": 2522
+      },
+      {
+        "i": 5,
+        "label": "collection-title",
+        "top": 13388,
+        "h": 918
+      },
+      {
+        "i": 6,
+        "label": "cta-title",
+        "top": 14306,
+        "h": 2072
+      },
+      {
+        "i": 7,
+        "label": "newsletter-title",
+        "top": 16378,
+        "h": 448
+      }
+    ],
+    "header": {
+      "top": 0,
+      "h": 64,
+      "bg": "rgb(10, 10, 10)",
+      "color": "rgb(242, 240, 235)"
+    },
+    "hud": {
+      "frame": "34",
+      "text": [
+        "SS26 — DROP 04",
+        "MUMBAI 19.0760°N / 72.8777°E",
+        ".",
+        "PHANTOM RUNNER GT — OBSIDIAN",
+        "",
+        "FRAME SEQUENCE 01 / 05",
+        "01 / SUEDE SHELL",
+        "FULL-GRAIN, 1.8 MM"
+      ]
+    }
+  },
+  "heroFrames": [
+    {
+      "y": 0,
+      "frame": "34"
+    },
+    {
+      "y": 500,
+      "frame": "70"
+    },
+    {
+      "y": 1000,
+      "frame": "106"
+    },
+    {
+      "y": 1500,
+      "frame": "143"
+    },
+    {
+      "y": 2000,
+      "frame": "180"
+    },
+    {
+      "y": 2500,
+      "frame": "217"
+    },
+    {
+      "y": 2850,
+      "frame": "244"
+    }
+  ],
+  "heroLoading": null,
+  "shotMeta": [
+    {
+      "name": "02-manifesto",
+      "y": 4028,
+      "frames": [
+        "247",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "03-craft",
+      "y": 5874,
+      "frames": [
+        "247",
+        "63",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "04-details",
+      "y": 8936,
+      "frames": [
+        "247",
+        "150",
+        "75",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "05-rail",
+      "y": 11938,
+      "frames": [
+        "247",
+        "150",
+        "150",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "06-collection",
+      "y": 13468,
+      "frames": [
+        "247",
+        "150",
+        "150",
+        "134",
+        "1"
+      ]
+    },
+    {
+      "name": "07-cta",
+      "y": 14706,
+      "frames": [
+        "247",
+        "150",
+        "150",
+        "191",
+        "11"
+      ]
+    },
+    {
+      "name": "08-footer",
+      "y": 16356,
+      "frames": [
+        "247",
+        "150",
+        "150",
+        "191",
+        "30"
+      ]
+    }
+  ],
+  "errors": [],
+  "logs": [
+    {
+      "type": "info",
+      "text": "Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113"
+    },
+    {
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    }
+  ]
+}

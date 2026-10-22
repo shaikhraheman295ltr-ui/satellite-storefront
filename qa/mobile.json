@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "height": 16729,
+    "vw": 390,
+    "sw": 390,
+    "sections": [
+      {
+        "label": "Hero — Phantom Runner GT",
+        "top": 0,
+        "h": 3545
+      },
+      {
+        "label": "manifesto-title",
+        "top": 3612,
+        "h": 1258
+      },
+      {
+        "label": "Craft — making of the sneaker",
+        "top": 4870,
+        "h": 2872
+      },
+      {
+        "label": "details-title",
+        "top": 7741,
+        "h": 3227
+      },
+      {
+        "label": "featured-title",
+        "top": 10968,
+        "h": 1859
+      },
+      {
+        "label": "collection-title",
+        "top": 12894,
+        "h": 570
+      },
+      {
+        "label": "cta-title",
+        "top": 13464,
+        "h": 1943
+      },
+      {
+        "label": "newsletter-title",
+        "top": 15407,
+        "h": 489
+      }
+    ],
+    "wide": [
+      {
+        "tag": "DIV",
+        "cls": "marquee-track",
+        "w": 8687
+      },
+      {
+        "tag": "DIV",
+        "cls": "flex shrink-0 items-center",
+        "w": 4344
+      },
+      {
+        "tag": "SPAN",
+        "cls": "flex items-center",
+        "w": 1086
+      },
+      {
+        "tag": "SPAN",
+        "cls": "px-6 font-display text-[10vw] uppercase leading-none tracking-[-0.03em",
+        "w": 1066
+      },
+      {
+        "tag": "SPAN",
+        "cls": "flex items-center",
+        "w": 1086
+      },
+      {
+        "tag": "SPAN",
+        "cls": "px-6 font-display text-[10vw] uppercase leading-none tracking-[-0.03em",
+        "w": 1066
+      },
+      {
+        "tag": "SPAN",
+        "cls": "flex items-center",
+        "w": 1086
+      },
+      {
+        "tag": "SPAN",
+        "cls": "px-6 font-display text-[10vw] uppercase leading-none tracking-[-0.03em",
+        "w": 1066
+      },
+      {
+        "tag": "SPAN",
+        "cls": "flex items-center",
+        "w": 1086
+      },
+      {
+        "tag": "SPAN",
+        "cls": "px-6 font-display text-[10vw] uppercase leading-none tracking-[-0.03em",
+        "w": 1066
+      },
+      {
+        "tag": "DIV",
+        "cls": "flex shrink-0 items-center",
+        "w": 4344
+      },
+      {
+        "tag": "SPAN",
+        "cls": "flex items-center",
+        "w": 1086
+      }
+    ],
+    "nav": {
+      "h": 56
+    },
+    "hud": {
+      "frame": "34",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 390
+      }
+    }
+  },
+  "errors": []
+}

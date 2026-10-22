@@ -1,0 +1,118 @@
+{
+  "pdp": {
+    "url": "/product/orbit-runner-01",
+    "title": "ORBIT 01 “CONCRETE WAVE”",
+    "titleTag": "ORBIT 01 “CONCRETE WAVE” — SATELLITE®",
+    "price": "₹8,490",
+    "sizes": [
+      "AUTO:ON",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "♡"
+    ],
+    "h1": [
+      "ORBIT 01 “CONCRETE WAVE”"
+    ],
+    "jsonLd": true
+  },
+  "guide": {
+    "visible": true,
+    "text": "EU 4025.5 CMEU 4126.2 CMEU 4227.0 CMEU 4327.8 CMEU 4428.5 CMEU 4529.2 CMEU 4630.0 CMMEASURE YOUR FOOT IN CM. BETWEEN SIZ"
+  },
+  "drawer": {
+    "open": true,
+    "text": "CART [01]CLOSE [X]ORBIT 01 “CONCRETE WAVE”001SIZE EU 42 / QTY−1+₹8,490REMOVESUBTOTAL₹8,490SHIPPINGFREE / INTOTAL₹8,490CHECKOUT → RAZORPAYGST INCLUDED · 14-DAY RETURNS · SECURE PAYMENT",
+    "focused": "CLOSE [X]"
+  },
+  "afterClose": {
+    "drawerHidden": true,
+    "focus": "ADD TO CART + EU 42"
+  },
+  "checkout": {
+    "title": "Checkout — SATELLITE®",
+    "items": [
+      "ORBIT 01 “CONCRETE WAVE”001SIZE EU 42 / QTY−1+₹8,490REMOVE",
+      "ORBIT 01 “CONCRETE WAVE”₹8,490EU 42 / QTY 1"
+    ],
+    "body": "Skip to contentSATELLITE®ShopStudioContactAUTO:ONSEARCHCART [01]MENUCART [01]CLOSE [X]ORBIT 01 “CONCRETE WAVE”001SIZE EU 42 / QTY−1+₹8,490REMOVESUBTOTAL₹8,490SHIPPINGFREE / INTOTAL₹8,490CHECKOUT → RAZORPAYGST INCLUDED · "
+  },
+  "search": {
+    "url": "http://localhost:3000/product/orbit-runner-01"
+  },
+  "autoBefore": "true",
+  "autoAfter": "false",
+  "autoLabel": "AUTO:OFF",
+  "audits": {
+    "/": {
+      "noAlt": [],
+      "emptyButtons": 0,
+      "emptyLinks": 0,
+      "h1": [
+        "BUILTFROMMOTION."
+      ],
+      "title": "SATELLITE® — Sneakers Built From Motion",
+      "lang": "en-IN"
+    },
+    "/shop": {
+      "noAlt": [],
+      "emptyButtons": 0,
+      "emptyLinks": 0,
+      "h1": [
+        "THEINDEX."
+      ],
+      "title": "Shop — All Footwear — SATELLITE®",
+      "lang": "en-IN"
+    },
+    "/product/orbit-runner-01": {
+      "noAlt": [],
+      "emptyButtons": 0,
+      "emptyLinks": 0,
+      "h1": [
+        "ORBIT 01 “CONCRETE WAVE”"
+      ],
+      "title": "ORBIT 01 “CONCRETE WAVE” — SATELLITE®",
+      "lang": "en-IN"
+    },
+    "/about": {
+      "noAlt": [],
+      "emptyButtons": 0,
+      "emptyLinks": 0,
+      "h1": [
+        "WE DON’TMAKE SHOES.WE MAKEDECISIONS."
+      ],
+      "title": "Studio — Manifesto — SATELLITE®",
+      "lang": "en-IN"
+    },
+    "/contact": {
+      "noAlt": [],
+      "emptyButtons": 0,
+      "emptyLinks": 0,
+      "h1": [
+        "TALKTO THESTUDIO."
+      ],
+      "title": "Contact — Talk to the Studio — SATELLITE®",
+      "lang": "en-IN"
+    },
+    "/checkout": {
+      "noAlt": [],
+      "emptyButtons": 0,
+      "emptyLinks": 0,
+      "h1": [
+        "FINALSTEPS."
+      ],
+      "title": "Checkout — SATELLITE®",
+      "lang": "en-IN"
+    }
+  },
+  "errors": [
+    {
+      "type": "error",
+      "url": "http://localhost:3000/does-not-exist",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ]
+}

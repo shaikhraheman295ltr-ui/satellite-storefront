@@ -1,0 +1,28 @@
+{
+  "home": {
+    "title": "SATELLITE® — Sneakers Built From Motion",
+    "h1": 1,
+    "heroFrame": "1",
+    "overflow": 0
+  },
+  "pdp": {
+    "jsonLd": true,
+    "h1": "ORBIT 01 “CONCRETE WAVE”",
+    "title": "ORBIT 01 “CONCRETE WAVE” — SATELLITE®"
+  },
+  "cartOpen": true,
+  "searchUrl": "http://localhost:3000/product/orbit-runner-01",
+  "mobileHome": {
+    "overflow": 0,
+    "scrollHint": true,
+    "height": 16766
+  },
+  "mobileShop": {
+    "filtersDisplay": "none",
+    "filterButton": true,
+    "cards": 8,
+    "overflow": 0
+  },
+  "errors": [],
+  "badResponses": []
+}

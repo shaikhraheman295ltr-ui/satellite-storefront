@@ -1,0 +1,18 @@
+<!doctype html><meta charset="utf-8"><title>Contact sheet</title>
+<body style="margin:0;background:#111;color:#eee;font-family:monospace">
+<script>
+const seqs = [["2.1","frame_",150],["2.2","frame_",150],["2.3","ezgif-frame-",213],["v1","frame",247]];
+const picks = [1,10,25,40,55,70,85,100,115,130,145,160,175,190,205,220,235,247];
+document.body.innerHTML = seqs.map(([d,p,n]) =>
+  `<h2 style="margin:8px">/${d}/ (${n} frames)</h2><div style="display:flex;flex-wrap:wrap;gap:2px">` +
+  picks.filter(x=>x<=n).map(x=>{
+    const f = x===0?1:x;
+    const num = d==="v1" ? String(f).padStart(5,"0") : String(f).padStart(3,"0");
+    const name = d==="2.3" ? `ezgif-frame-${num}.jpg` : `${d==="v1"?"frame":"frame_"}${num}.jpg`;
+    return `<figure style="margin:0"><img src="frames/${d}/${name}" width="180"><figcaption>Frame ${num}</figcaption></figure>`;
+  }).join("") + "</div>"
+).join("") +
+"<h2>/images/ (all 27)</h2><div style='display:flex;flex-wrap:wrap;gap:2px'>" +
+  Array.from({length:26},(_,i)=>i+1).map(i=>`<figure style="margin:0"><img src="images/${i}.jpg" width="140"><figcaption>${i}.jpg</figcaption></figure>`).join("") +
+ "</div>";
+</script>

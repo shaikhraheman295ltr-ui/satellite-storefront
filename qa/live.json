@@ -1,0 +1,364 @@
+{
+  "checks": {
+    "heroV1": {
+      "a": "1",
+      "b": "1",
+      "stableAfterHold": true
+    },
+    "craft": {
+      "top": 4973.78125,
+      "idleA": "20",
+      "idleB": "56",
+      "scrollFrame": "89",
+      "resumeFrame": "117",
+      "autoplays": true,
+      "scrubWorks": true,
+      "resumes": true
+    },
+    "collection": {
+      "idleA": "24",
+      "idleB": "56",
+      "hoverA": "57",
+      "hoverB": "57",
+      "hoverPaused": true,
+      "resumeFrame": "87",
+      "autoplays": true,
+      "resumesAfterHover": true,
+      "box": {
+        "x": 26,
+        "y": 10.09375,
+        "width": 1388,
+        "height": 558
+      }
+    },
+    "ctaV1": {
+      "a": "1",
+      "b": "1",
+      "stableAfterHold": true
+    },
+    "cursor": {
+      "rootClass": true,
+      "exists": true,
+      "display": "block",
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 586, 386)",
+      "dataHover": "false",
+      "bodyCursor": "none"
+    },
+    "reveals": {
+      "count": 2,
+      "visible": 0,
+      "hiddenBelowFold": 2
+    },
+    "sizePicker": {
+      "cartBefore": 0,
+      "picker": {
+        "open": true,
+        "expanded": "true",
+        "cartCount": 0
+      },
+      "afterEscape": {
+        "group": false,
+        "cartCount": 0
+      },
+      "afterSize": {
+        "dialogOpen": true
+      }
+    },
+    "checkoutClear": {
+      "heading": "YOUMOVED.",
+      "focused": true,
+      "activeTag": "H1",
+      "cart": {
+        "items": [],
+        "wish": []
+      },
+      "stored": "{\"items\":[],\"wish\":[]}"
+    },
+    "contactFocus": {
+      "focused": "status",
+      "text": "MESSAGE / RECEIVEDWE’LL GET BACK WITHIN ONE WORKING DAY.SEND"
+    },
+    "newsletterFocus": {
+      "focused": "status",
+      "text": "SUBSCRIBED — CHECK YOUR INBOX FOR DROP 04 / 2026."
+    },
+    "overflows": {
+      "320/": {
+        "scrollWidth": 320,
+        "innerWidth": 320,
+        "overflow": 0,
+        "bodyScrollWidth": 320,
+        "h1Width": {
+          "left": 16,
+          "right": 304,
+          "width": 288,
+          "scrollWidth": 288,
+          "clientWidth": 288
+        }
+      },
+      "320/about": {
+        "scrollWidth": 320,
+        "innerWidth": 320,
+        "overflow": 0,
+        "bodyScrollWidth": 320,
+        "h1Width": {
+          "left": 16,
+          "right": 304,
+          "width": 288,
+          "scrollWidth": 288,
+          "clientWidth": 288
+        }
+      },
+      "320/shop": {
+        "scrollWidth": 320,
+        "innerWidth": 320,
+        "overflow": 0,
+        "bodyScrollWidth": 320,
+        "h1Width": {
+          "left": 16,
+          "right": 304,
+          "width": 288,
+          "scrollWidth": 288,
+          "clientWidth": 288
+        }
+      },
+      "360/": {
+        "scrollWidth": 360,
+        "innerWidth": 360,
+        "overflow": 0,
+        "bodyScrollWidth": 360,
+        "h1Width": {
+          "left": 16,
+          "right": 344,
+          "width": 328,
+          "scrollWidth": 328,
+          "clientWidth": 328
+        }
+      },
+      "360/about": {
+        "scrollWidth": 360,
+        "innerWidth": 360,
+        "overflow": 0,
+        "bodyScrollWidth": 360,
+        "h1Width": {
+          "left": 16,
+          "right": 344,
+          "width": 328,
+          "scrollWidth": 328,
+          "clientWidth": 328
+        }
+      },
+      "360/shop": {
+        "scrollWidth": 360,
+        "innerWidth": 360,
+        "overflow": 0,
+        "bodyScrollWidth": 360,
+        "h1Width": {
+          "left": 16,
+          "right": 344,
+          "width": 328,
+          "scrollWidth": 328,
+          "clientWidth": 328
+        }
+      },
+      "768/": {
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "overflow": 0,
+        "bodyScrollWidth": 768,
+        "h1Width": {
+          "left": 24,
+          "right": 744,
+          "width": 720,
+          "scrollWidth": 720,
+          "clientWidth": 720
+        }
+      },
+      "768/about": {
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "overflow": 0,
+        "bodyScrollWidth": 768,
+        "h1Width": {
+          "left": 24,
+          "right": 744,
+          "width": 720,
+          "scrollWidth": 720,
+          "clientWidth": 720
+        }
+      },
+      "768/shop": {
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "overflow": 0,
+        "bodyScrollWidth": 768,
+        "h1Width": {
+          "left": 24,
+          "right": 744,
+          "width": 720,
+          "scrollWidth": 720,
+          "clientWidth": 720
+        }
+      }
+    },
+    "mobile": {
+      "overflow": 0,
+      "craft": {
+        "a": "21",
+        "b": "58",
+        "autoplays": true
+      },
+      "collection": {
+        "a": "2",
+        "b": "34",
+        "autoplays": true
+      },
+      "v1Requests": [
+        "/frames/v1/m/f0001.webp",
+        "/frames/v1/m/f0003.webp",
+        "/frames/v1/m/f0005.webp",
+        "/frames/v1/m/f0007.webp",
+        "/frames/v1/m/f0009.webp",
+        "/frames/v1/m/f0011.webp",
+        "/frames/v1/f0218.webp",
+        "/frames/v1/m/f0025.webp",
+        "/frames/v1/m/f0027.webp",
+        "/frames/v1/m/f0029.webp",
+        "/frames/v1/m/f0031.webp",
+        "/frames/v1/m/f0033.webp",
+        "/frames/v1/m/f0035.webp",
+        "/frames/v1/m/f0037.webp",
+        "/frames/v1/m/f0039.webp",
+        "/frames/v1/m/f0041.webp",
+        "/frames/v1/m/f0043.webp",
+        "/frames/v1/m/f0045.webp",
+        "/frames/v1/m/f0047.webp",
+        "/frames/v1/m/f0049.webp",
+        "/frames/v1/m/f0051.webp",
+        "/frames/v1/m/f0053.webp",
+        "/frames/v1/m/f0055.webp",
+        "/frames/v1/m/f0057.webp",
+        "/frames/v1/m/f0059.webp",
+        "/frames/v1/m/f0061.webp",
+        "/frames/v1/m/f0063.webp",
+        "/frames/v1/m/f0065.webp",
+        "/frames/v1/m/f0067.webp",
+        "/frames/v1/m/f0069.webp",
+        "/frames/v1/m/f0071.webp",
+        "/frames/v1/m/f0073.webp",
+        "/frames/v1/m/f0075.webp",
+        "/frames/v1/m/f0077.webp",
+        "/frames/v1/m/f0079.webp",
+        "/frames/v1/m/f0081.webp",
+        "/frames/v1/m/f0083.webp",
+        "/frames/v1/m/f0085.webp",
+        "/frames/v1/m/f0087.webp",
+        "/frames/v1/m/f0089.webp",
+        "/frames/v1/m/f0091.webp",
+        "/frames/v1/m/f0093.webp",
+        "/frames/v1/m/f0095.webp",
+        "/frames/v1/m/f0097.webp",
+        "/frames/v1/m/f0099.webp",
+        "/frames/v1/m/f0101.webp",
+        "/frames/v1/m/f0103.webp",
+        "/frames/v1/m/f0105.webp",
+        "/frames/v1/m/f0107.webp",
+        "/frames/v1/m/f0109.webp",
+        "/frames/v1/m/f0111.webp",
+        "/frames/v1/m/f0113.webp",
+        "/frames/v1/m/f0115.webp",
+        "/frames/v1/m/f0117.webp",
+        "/frames/v1/m/f0119.webp",
+        "/frames/v1/m/f0121.webp",
+        "/frames/v1/m/f0123.webp",
+        "/frames/v1/m/f0125.webp",
+        "/frames/v1/m/f0127.webp",
+        "/frames/v1/m/f0129.webp",
+        "/frames/v1/m/f0131.webp",
+        "/frames/v1/m/f0133.webp",
+        "/frames/v1/m/f0135.webp",
+        "/frames/v1/m/f0137.webp",
+        "/frames/v1/m/f0139.webp",
+        "/frames/v1/m/f0141.webp",
+        "/frames/v1/m/f0143.webp",
+        "/frames/v1/m/f0145.webp",
+        "/frames/v1/m/f0147.webp",
+        "/frames/v1/m/f0149.webp",
+        "/frames/v1/m/f0151.webp",
+        "/frames/v1/m/f0153.webp",
+        "/frames/v1/m/f0155.webp",
+        "/frames/v1/m/f0157.webp",
+        "/frames/v1/m/f0159.webp",
+        "/frames/v1/m/f0161.webp",
+        "/frames/v1/m/f0163.webp",
+        "/frames/v1/m/f0165.webp",
+        "/frames/v1/m/f0167.webp",
+        "/frames/v1/m/f0169.webp",
+        "/frames/v1/m/f0171.webp",
+        "/frames/v1/m/f0173.webp",
+        "/frames/v1/m/f0175.webp",
+        "/frames/v1/m/f0177.webp",
+        "/frames/v1/m/f0179.webp",
+        "/frames/v1/m/f0181.webp",
+        "/frames/v1/m/f0183.webp",
+        "/frames/v1/m/f0185.webp",
+        "/frames/v1/m/f0187.webp",
+        "/frames/v1/m/f0189.webp",
+        "/frames/v1/m/f0191.webp",
+        "/frames/v1/m/f0193.webp",
+        "/frames/v1/m/f0195.webp",
+        "/frames/v1/m/f0197.webp",
+        "/frames/v1/m/f0199.webp",
+        "/frames/v1/m/f0201.webp",
+        "/frames/v1/m/f0203.webp",
+        "/frames/v1/m/f0205.webp",
+        "/frames/v1/m/f0207.webp",
+        "/frames/v1/m/f0209.webp",
+        "/frames/v1/m/f0211.webp",
+        "/frames/v1/m/f0213.webp",
+        "/frames/v1/m/f0215.webp",
+        "/frames/v1/m/f0217.webp",
+        "/frames/v1/m/f0219.webp",
+        "/frames/v1/m/f0221.webp",
+        "/frames/v1/m/f0223.webp",
+        "/frames/v1/m/f0225.webp",
+        "/frames/v1/m/f0227.webp",
+        "/frames/v1/m/f0229.webp",
+        "/frames/v1/m/f0231.webp",
+        "/frames/v1/m/f0233.webp",
+        "/frames/v1/m/f0235.webp",
+        "/frames/v1/m/f0237.webp",
+        "/frames/v1/m/f0239.webp",
+        "/frames/v1/m/f0241.webp",
+        "/frames/v1/m/f0243.webp",
+        "/frames/v1/m/f0245.webp",
+        "/frames/v1/m/f0247.webp",
+        "/frames/v1/m/f0013.webp",
+        "/frames/v1/m/f0015.webp",
+        "/frames/v1/m/f0017.webp",
+        "/frames/v1/m/f0019.webp",
+        "/frames/v1/m/f0021.webp",
+        "/frames/v1/m/f0023.webp"
+      ],
+      "v1DesktopRequests": [
+        "/frames/v1/f0218.webp"
+      ],
+      "nonV1Sample": [
+        "/frames/2.1/f0001.webp",
+        "/frames/2.1/m/f0001.webp",
+        "/frames/2.1/m/f0003.webp",
+        "/frames/2.1/m/f0005.webp"
+      ],
+      "mobileVariants": 355
+    },
+    "reducedMotion": {
+      "cursorClass": false,
+      "cursorVisible": false,
+      "revealUnhidden": true,
+      "craftAutoplay": false
+    }
+  },
+  "consoleErrors": [],
+  "badResponses": []
+}

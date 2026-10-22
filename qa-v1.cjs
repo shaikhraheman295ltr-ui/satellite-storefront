@@ -1,0 +1,22 @@
+const { chromium } = require("playwright-core");
+const EDGE = "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe";
+(async () => {
+  const browser = await chromium.launch({ executablePath: EDGE, headless: true });
+  const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+  const page = await ctx.newPage();
+  await page.addInitScript(() => sessionStorage.setItem("sh-pre", "1"));
+  await page.goto("http://localhost:3000/", { waitUntil: "networkidle" });
+  await page.waitForTimeout(1600);
+  const sel = 'section[aria-label^="Hero"] [data-frame]';
+  const before = await page.getAttribute(sel, "data-frame");
+  await page.mouse.move(720, 450);
+  await page.mouse.wheel(0, 1600);
+  await page.waitForTimeout(1200);
+  const afterWheel = await page.getAttribute(sel, "data-frame");
+  const y1 = await page.evaluate(() => scrollY);
+  await page.waitForTimeout(1800);
+  const afterIdle = await page.getAttribute(sel, "data-frame");
+  const y2 = await page.evaluate(() => scrollY);
+  console.log(JSON.stringify({ before, y1, afterWheel, y2, afterIdle, stable: afterWheel === afterIdle }, null, 2));
+  await browser.close();
+})();

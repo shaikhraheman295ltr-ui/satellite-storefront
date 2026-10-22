@@ -1,0 +1,50 @@
+{
+  "shopBefore": {
+    "asideVisible": false,
+    "cards": 8
+  },
+  "shopOpen": {
+    "open": null,
+    "display": "block",
+    "expanded": "true"
+  },
+  "shopFiltered": {
+    "cards": [
+      "View TERRA HIKE “RUST OXIDE”",
+      "View NIGHT OWL MID “STATIC”"
+    ],
+    "count": "2",
+    "button": "HIDE FILTERS [1]2 RESULTS"
+  },
+  "shopClosed": {
+    "display": "none"
+  },
+  "collection": {
+    "before": "191",
+    "after": "191",
+    "shopVisible": {
+      "exists": true,
+      "rect": {
+        "x": 246,
+        "y": 145,
+        "w": 114,
+        "h": 44
+      },
+      "topEl": "A",
+      "topText": "SHOP →"
+    },
+    "urlAfterClick": "http://localhost:3000/shop"
+  },
+  "reduced": {
+    "auto": "AUTO:OFF",
+    "autoPressed": "false",
+    "frame": "1",
+    "cursorNone": false,
+    "marquee": "none"
+  },
+  "reducedScrolled": {
+    "frame": "104",
+    "scrollY": 1200
+  },
+  "errors": []
+}

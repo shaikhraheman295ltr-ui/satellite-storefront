@@ -1,0 +1,19 @@
+{
+  "opened": {
+    "dialog": true,
+    "focused": "Close menu"
+  },
+  "shiftTab": "AUTOPLAY:ON",
+  "tabBack": "Close menu",
+  "closed": {
+    "dialog": false,
+    "focused": "Open menu"
+  },
+  "collectionCopy": "04 / COLLECTION RUN THE CITY. EIGHT SILHOUETTES. FOUR HUNDRED PAIRS EACH. WHEN THEY’RE GONE THE MOULD IS DESTROYED. ALL FOOTWEAR → LOOP FILM — 736×414 SCROLL TO SCRUB COLLECTION FILM / 04 SHOP → SCROLL SCRUBS THE FILM 24 FPS / NO AUDIO",
+  "desktopHover": {
+    "f0": "77",
+    "f1": "91",
+    "f2": "77"
+  },
+  "errors": []
+}

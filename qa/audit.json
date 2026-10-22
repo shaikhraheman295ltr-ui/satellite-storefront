@@ -1,0 +1,4719 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failed": [],
+      "title": "SATELLITE® — Sneakers Built From Motion",
+      "h1": [
+        "BUILTFROMMOTION."
+      ],
+      "videos": 0,
+      "canvases": [
+        {
+          "w": 1440,
+          "h": 900,
+          "cw": 1440,
+          "ch": 900
+        },
+        {
+          "w": 1440,
+          "h": 900,
+          "cw": 1440,
+          "ch": 900
+        },
+        {
+          "w": 718,
+          "h": 900,
+          "cw": 718,
+          "ch": 900
+        },
+        {
+          "w": 1388,
+          "h": 558,
+          "cw": 1388,
+          "ch": 558
+        },
+        {
+          "w": 1440,
+          "h": 900,
+          "cw": 1440,
+          "ch": 900
+        }
+      ],
+      "brokenImgs": [
+        "http://localhost:3000/_next/image?url=%2Fimages%2F12.webp&w=1600&q=75",
+        "http://localhost:3000/_next/image?url=%2Fimages%2F9.webp&w=1600&q=75",
+        "http://localhost:3000/_next/image?url=%2Fimages%2F16.webp&w=1600&q=75",
+        "http://localhost:3000/_next/image?url=%2Fimages%2F15.webp&w=1600&q=75",
+        "http://localhost:3000/_next/image?url=%2Fimages%2F9.webp&w=1600&q=75",
+        "http://localhost:3000/_next/image?url=%2Fimages%2F13.webp&w=1600&q=75",
+        "http://localhost:3000/_next/image?url=%2Fimages%2F8.webp&w=1600&q=75",
+        "http://localhost:3000/_next/image?url=%2Fimages%2F14.webp&w=1600&q=75"
+      ],
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "header": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 64,
+          "top": 0,
+          "right": 1440,
+          "bottom": 64,
+          "left": 0
+        }
+      },
+      "h1Clip": [
+        {
+          "text": "BUILTFROMMOTION.",
+          "scrollWidth": 1392,
+          "clientWidth": 1392,
+          "overflow": false
+        }
+      ],
+      "emptyLinks": []
+    },
+    {
+      "route": "/shop",
+      "status": 200,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failed": [],
+      "title": "Shop — All Footwear — SATELLITE®",
+      "h1": [
+        "THEINDEX."
+      ],
+      "videos": 0,
+      "canvases": [],
+      "brokenImgs": [],
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "header": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 64,
+          "top": 0,
+          "right": 1440,
+          "bottom": 64,
+          "left": 0
+        }
+      },
+      "h1Clip": [
+        {
+          "text": "THEINDEX.",
+          "scrollWidth": 1392,
+          "clientWidth": 1392,
+          "overflow": false
+        }
+      ],
+      "emptyLinks": []
+    },
+    {
+      "route": "/shop?c=RUNNER",
+      "status": 200,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failed": [],
+      "title": "Shop — All Footwear — SATELLITE®",
+      "h1": [
+        "THEINDEX."
+      ],
+      "videos": 0,
+      "canvases": [],
+      "brokenImgs": [],
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "header": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 64,
+          "top": 0,
+          "right": 1440,
+          "bottom": 64,
+          "left": 0
+        }
+      },
+      "h1Clip": [
+        {
+          "text": "THEINDEX.",
+          "scrollWidth": 1392,
+          "clientWidth": 1392,
+          "overflow": false
+        }
+      ],
+      "emptyLinks": []
+    },
+    {
+      "route": "/product/orbit-runner-01",
+      "status": 200,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failed": [
+        "http://localhost:3000/shop?_rsc=m8po_EGS-2ulz_bG :: net::ERR_ABORTED"
+      ],
+      "title": "ORBIT 01 “CONCRETE WAVE” — SATELLITE®",
+      "h1": [
+        "ORBIT 01 “CONCRETE WAVE”"
+      ],
+      "videos": 0,
+      "canvases": [],
+      "brokenImgs": [],
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "header": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 64,
+          "top": 0,
+          "right": 1440,
+          "bottom": 64,
+          "left": 0
+        }
+      },
+      "h1Clip": [
+        {
+          "text": "ORBIT 01 “CONCRETE WAVE”",
+          "scrollWidth": 656,
+          "clientWidth": 656,
+          "overflow": false
+        }
+      ],
+      "emptyLinks": []
+    },
+    {
+      "route": "/checkout",
+      "status": 200,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failed": [
+        "http://localhost:3000/shop?_rsc=pb9faTsi5d4o8qtp :: net::ERR_ABORTED"
+      ],
+      "title": "Checkout — SATELLITE®",
+      "h1": [
+        "FINALSTEPS."
+      ],
+      "videos": 0,
+      "canvases": [],
+      "brokenImgs": [],
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "header": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 64,
+          "top": 0,
+          "right": 1440,
+          "bottom": 64,
+          "left": 0
+        }
+      },
+      "h1Clip": [
+        {
+          "text": "FINALSTEPS.",
+          "scrollWidth": 329,
+          "clientWidth": 329,
+          "overflow": false
+        }
+      ],
+      "emptyLinks": []
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failed": [
+        "http://localhost:3000/shop?_rsc=_paE49VugaXyxB1G :: net::ERR_ABORTED"
+      ],
+      "title": "Studio — Manifesto — SATELLITE®",
+      "h1": [
+        "WE DON’TMAKE SHOES.WE MAKEDECISIONS."
+      ],
+      "videos": 0,
+      "canvases": [],
+      "brokenImgs": [],
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "header": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 64,
+          "top": 0,
+          "right": 1440,
+          "bottom": 64,
+          "left": 0
+        }
+      },
+      "h1Clip": [
+        {
+          "text": "WE DON’TMAKE SHOES.WE MAKEDECISIONS.",
+          "scrollWidth": 1392,
+          "clientWidth": 1392,
+          "overflow": false
+        }
+      ],
+      "emptyLinks": []
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failed": [
+        "http://localhost:3000/shop?_rsc=8k6vkql5ktX3Dkf2 :: net::ERR_ABORTED"
+      ],
+      "title": "Contact — Talk to the Studio — SATELLITE®",
+      "h1": [
+        "TALKTO THESTUDIO."
+      ],
+      "videos": 0,
+      "canvases": [],
+      "brokenImgs": [],
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "header": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 64,
+          "top": 0,
+          "right": 1440,
+          "bottom": 64,
+          "left": 0
+        }
+      },
+      "h1Clip": [
+        {
+          "text": "TALKTO THESTUDIO.",
+          "scrollWidth": 1392,
+          "clientWidth": 1392,
+          "overflow": false
+        }
+      ],
+      "emptyLinks": []
+    },
+    {
+      "route": "/does-not-exist",
+      "status": 404,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "pageErrors": [],
+      "failed": [
+        "http://localhost:3000/shop?_rsc=0JRbJX4JgpfuvHsr :: net::ERR_ABORTED"
+      ],
+      "title": "SATELLITE® — Sneakers Built From Motion",
+      "h1": [
+        "404."
+      ],
+      "videos": 0,
+      "canvases": [],
+      "brokenImgs": [],
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "header": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 64,
+          "top": 0,
+          "right": 1440,
+          "bottom": 64,
+          "left": 0
+        }
+      },
+      "h1Clip": [
+        {
+          "text": "404.",
+          "scrollWidth": 1392,
+          "clientWidth": 1392,
+          "overflow": false
+        }
+      ],
+      "emptyLinks": []
+    }
+  ],
+  "links": [
+    {
+      "href": "/",
+      "status": 200
+    },
+    {
+      "href": "/about",
+      "status": 200
+    },
+    {
+      "href": "/checkout",
+      "status": 200
+    },
+    {
+      "href": "/contact",
+      "status": 200
+    },
+    {
+      "href": "/product/eclipse-runner-low",
+      "status": 200
+    },
+    {
+      "href": "/product/hollow-court",
+      "status": 200
+    },
+    {
+      "href": "/product/meridian-slip",
+      "status": 200
+    },
+    {
+      "href": "/product/orbit-runner-01",
+      "status": 200
+    },
+    {
+      "href": "/product/terra-terra-hiker",
+      "status": 200
+    },
+    {
+      "href": "/product/void-chukka",
+      "status": 200
+    },
+    {
+      "href": "/shop",
+      "status": 200
+    },
+    {
+      "href": "/shop?c=HIKER",
+      "status": 200
+    },
+    {
+      "href": "/shop?c=LOAFER",
+      "status": 200
+    },
+    {
+      "href": "/shop?c=RUNNER",
+      "status": 200
+    },
+    {
+      "href": "/product/night-owl-mid",
+      "status": 200
+    },
+    {
+      "href": "/product/phantom-runner-gt",
+      "status": 200
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "route": "/",
+      "sw": 320,
+      "vw": 320,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 320,
+      "headerCW": 320,
+      "h1s": [
+        {
+          "text": "BUILTFROMMOTION.",
+          "sw": 288,
+          "cw": 288,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 320,
+            "r": 640,
+            "w": 320
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 322,
+            "r": 640,
+            "w": 318
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 338,
+            "r": 428,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 532,
+            "r": 624,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 322,
+            "r": 640,
+            "w": 318
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 457,
+            "r": 505,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 375,
+            "r": 587,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 376,
+            "r": 586,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "route": "/shop",
+      "sw": 320,
+      "vw": 320,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 320,
+      "headerCW": 320,
+      "h1s": [
+        {
+          "text": "THEINDEX.",
+          "sw": 288,
+          "cw": 288,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 320,
+            "r": 640,
+            "w": 320
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 322,
+            "r": 640,
+            "w": 318
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 338,
+            "r": 428,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 532,
+            "r": 624,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 322,
+            "r": 640,
+            "w": 318
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 457,
+            "r": 505,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 375,
+            "r": 587,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 376,
+            "r": 586,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "route": "/about",
+      "sw": 364,
+      "vw": 364,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 364,
+      "headerCW": 364,
+      "h1s": [
+        {
+          "text": "WE DON’TMAKE SHOES.WE MAKEDECISIONS.",
+          "sw": 348,
+          "cw": 288,
+          "overflow": true
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 364,
+            "r": 728,
+            "w": 364
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 366,
+            "r": 728,
+            "w": 362
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 382,
+            "r": 472,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 620,
+            "r": 712,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 366,
+            "r": 728,
+            "w": 362
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 523,
+            "r": 571,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 441,
+            "r": 653,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 442,
+            "r": 652,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "route": "/contact",
+      "sw": 320,
+      "vw": 320,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 320,
+      "headerCW": 320,
+      "h1s": [
+        {
+          "text": "TALKTO THESTUDIO.",
+          "sw": 288,
+          "cw": 288,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 320,
+            "r": 640,
+            "w": 320
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 322,
+            "r": 640,
+            "w": 318
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 338,
+            "r": 428,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 532,
+            "r": 624,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 322,
+            "r": 640,
+            "w": 318
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 457,
+            "r": 505,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 375,
+            "r": 587,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 376,
+            "r": 586,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "route": "/product/orbit-runner-01",
+      "sw": 320,
+      "vw": 320,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 320,
+      "headerCW": 320,
+      "h1s": [
+        {
+          "text": "ORBIT 01 “CONCRETE WAVE”",
+          "sw": 288,
+          "cw": 288,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 320,
+            "r": 640,
+            "w": 320
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 322,
+            "r": 640,
+            "w": 318
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 338,
+            "r": 428,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 532,
+            "r": 624,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 322,
+            "r": 640,
+            "w": 318
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 457,
+            "r": 505,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 375,
+            "r": 587,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 376,
+            "r": 586,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "route": "/checkout",
+      "sw": 320,
+      "vw": 320,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 320,
+      "headerCW": 320,
+      "h1s": [
+        {
+          "text": "FINALSTEPS.",
+          "sw": 135,
+          "cw": 135,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 320,
+            "r": 640,
+            "w": 320
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 322,
+            "r": 640,
+            "w": 318
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 338,
+            "r": 428,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 532,
+            "r": 624,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 322,
+            "r": 640,
+            "w": 318
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 457,
+            "r": 505,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 375,
+            "r": 587,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 376,
+            "r": 586,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "route": "/",
+      "sw": 360,
+      "vw": 360,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 360,
+      "headerCW": 360,
+      "h1s": [
+        {
+          "text": "BUILTFROMMOTION.",
+          "sw": 328,
+          "cw": 328,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 360,
+            "r": 720,
+            "w": 360
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 362,
+            "r": 720,
+            "w": 358
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 378,
+            "r": 468,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 612,
+            "r": 704,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 362,
+            "r": 720,
+            "w": 358
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 517,
+            "r": 565,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 435,
+            "r": 647,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 436,
+            "r": 646,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "route": "/shop",
+      "sw": 360,
+      "vw": 360,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 360,
+      "headerCW": 360,
+      "h1s": [
+        {
+          "text": "THEINDEX.",
+          "sw": 328,
+          "cw": 328,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 360,
+            "r": 720,
+            "w": 360
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 362,
+            "r": 720,
+            "w": 358
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 378,
+            "r": 468,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 612,
+            "r": 704,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 362,
+            "r": 720,
+            "w": 358
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 517,
+            "r": 565,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 435,
+            "r": 647,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 436,
+            "r": 646,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "route": "/about",
+      "sw": 364,
+      "vw": 364,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 364,
+      "headerCW": 364,
+      "h1s": [
+        {
+          "text": "WE DON’TMAKE SHOES.WE MAKEDECISIONS.",
+          "sw": 348,
+          "cw": 328,
+          "overflow": true
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 364,
+            "r": 728,
+            "w": 364
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 366,
+            "r": 728,
+            "w": 362
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 382,
+            "r": 472,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 620,
+            "r": 712,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 366,
+            "r": 728,
+            "w": 362
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 523,
+            "r": 571,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 441,
+            "r": 653,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 442,
+            "r": 652,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "route": "/contact",
+      "sw": 360,
+      "vw": 360,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 360,
+      "headerCW": 360,
+      "h1s": [
+        {
+          "text": "TALKTO THESTUDIO.",
+          "sw": 328,
+          "cw": 328,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 360,
+            "r": 720,
+            "w": 360
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 362,
+            "r": 720,
+            "w": 358
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 378,
+            "r": 468,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 612,
+            "r": 704,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 362,
+            "r": 720,
+            "w": 358
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 517,
+            "r": 565,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 435,
+            "r": 647,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 436,
+            "r": 646,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "route": "/product/orbit-runner-01",
+      "sw": 360,
+      "vw": 360,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 360,
+      "headerCW": 360,
+      "h1s": [
+        {
+          "text": "ORBIT 01 “CONCRETE WAVE”",
+          "sw": 328,
+          "cw": 328,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 360,
+            "r": 720,
+            "w": 360
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 362,
+            "r": 720,
+            "w": 358
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 378,
+            "r": 468,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 612,
+            "r": 704,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 362,
+            "r": 720,
+            "w": 358
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 517,
+            "r": 565,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 435,
+            "r": 647,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 436,
+            "r": 646,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "route": "/checkout",
+      "sw": 360,
+      "vw": 360,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 360,
+      "headerCW": 360,
+      "h1s": [
+        {
+          "text": "FINALSTEPS.",
+          "sw": 135,
+          "cw": 135,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 360,
+            "r": 720,
+            "w": 360
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 362,
+            "r": 720,
+            "w": 358
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 378,
+            "r": 468,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 612,
+            "r": 704,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 362,
+            "r": 720,
+            "w": 358
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 517,
+            "r": 565,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 435,
+            "r": 647,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 436,
+            "r": 646,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "sw": 390,
+      "vw": 390,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 390,
+      "headerCW": 390,
+      "h1s": [
+        {
+          "text": "BUILTFROMMOTION.",
+          "sw": 358,
+          "cw": 358,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 390,
+            "r": 780,
+            "w": 390
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 392,
+            "r": 780,
+            "w": 388
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 408,
+            "r": 498,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 672,
+            "r": 764,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 392,
+            "r": 780,
+            "w": 388
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 562,
+            "r": 610,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 480,
+            "r": 692,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 481,
+            "r": 691,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/shop",
+      "sw": 390,
+      "vw": 390,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 390,
+      "headerCW": 390,
+      "h1s": [
+        {
+          "text": "THEINDEX.",
+          "sw": 358,
+          "cw": 358,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 390,
+            "r": 780,
+            "w": 390
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 392,
+            "r": 780,
+            "w": 388
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 408,
+            "r": 498,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 672,
+            "r": 764,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 392,
+            "r": 780,
+            "w": 388
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 562,
+            "r": 610,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 480,
+            "r": 692,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 481,
+            "r": 691,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/about",
+      "sw": 390,
+      "vw": 390,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 390,
+      "headerCW": 390,
+      "h1s": [
+        {
+          "text": "WE DON’TMAKE SHOES.WE MAKEDECISIONS.",
+          "sw": 358,
+          "cw": 358,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 390,
+            "r": 780,
+            "w": 390
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 392,
+            "r": 780,
+            "w": 388
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 408,
+            "r": 498,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 672,
+            "r": 764,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 392,
+            "r": 780,
+            "w": 388
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 562,
+            "r": 610,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 480,
+            "r": 692,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 481,
+            "r": 691,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/contact",
+      "sw": 390,
+      "vw": 390,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 390,
+      "headerCW": 390,
+      "h1s": [
+        {
+          "text": "TALKTO THESTUDIO.",
+          "sw": 358,
+          "cw": 358,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 390,
+            "r": 780,
+            "w": 390
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 392,
+            "r": 780,
+            "w": 388
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 408,
+            "r": 498,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 672,
+            "r": 764,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 392,
+            "r": 780,
+            "w": 388
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 562,
+            "r": 610,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 480,
+            "r": 692,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 481,
+            "r": 691,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/product/orbit-runner-01",
+      "sw": 390,
+      "vw": 390,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 390,
+      "headerCW": 390,
+      "h1s": [
+        {
+          "text": "ORBIT 01 “CONCRETE WAVE”",
+          "sw": 358,
+          "cw": 358,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 390,
+            "r": 780,
+            "w": 390
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 392,
+            "r": 780,
+            "w": 388
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 408,
+            "r": 498,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 672,
+            "r": 764,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 392,
+            "r": 780,
+            "w": 388
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 562,
+            "r": 610,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 480,
+            "r": 692,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 481,
+            "r": 691,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "route": "/checkout",
+      "sw": 390,
+      "vw": 390,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 390,
+      "headerCW": 390,
+      "h1s": [
+        {
+          "text": "FINALSTEPS.",
+          "sw": 135,
+          "cw": 135,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 390,
+            "r": 780,
+            "w": 390
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 392,
+            "r": 780,
+            "w": 388
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 408,
+            "r": 498,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 672,
+            "r": 764,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 392,
+            "r": 780,
+            "w": 388
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 562,
+            "r": 610,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 480,
+            "r": 692,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 481,
+            "r": 691,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "sw": 770,
+      "vw": 768,
+      "overflow": true,
+      "headerOverflow": false,
+      "headerSW": 768,
+      "headerCW": 768,
+      "h1s": [
+        {
+          "text": "BUILTFROMMOTION.",
+          "sw": 720,
+          "cw": 720,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 768,
+            "r": 1216,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 770,
+            "r": 1216,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 786,
+            "r": 876,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1108,
+            "r": 1200,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 770,
+            "r": 1216,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 969,
+            "r": 1017,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 887,
+            "r": 1099,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 888,
+            "r": 1098,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/shop",
+      "sw": 770,
+      "vw": 768,
+      "overflow": true,
+      "headerOverflow": false,
+      "headerSW": 768,
+      "headerCW": 768,
+      "h1s": [
+        {
+          "text": "THEINDEX.",
+          "sw": 720,
+          "cw": 720,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 768,
+            "r": 1216,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 770,
+            "r": 1216,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 786,
+            "r": 876,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1108,
+            "r": 1200,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 770,
+            "r": 1216,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 969,
+            "r": 1017,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 887,
+            "r": 1099,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 888,
+            "r": 1098,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/about",
+      "sw": 770,
+      "vw": 768,
+      "overflow": true,
+      "headerOverflow": false,
+      "headerSW": 768,
+      "headerCW": 768,
+      "h1s": [
+        {
+          "text": "WE DON’TMAKE SHOES.WE MAKEDECISIONS.",
+          "sw": 720,
+          "cw": 720,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 768,
+            "r": 1216,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 770,
+            "r": 1216,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 786,
+            "r": 876,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1108,
+            "r": 1200,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 770,
+            "r": 1216,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 969,
+            "r": 1017,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 887,
+            "r": 1099,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 888,
+            "r": 1098,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/contact",
+      "sw": 770,
+      "vw": 768,
+      "overflow": true,
+      "headerOverflow": false,
+      "headerSW": 768,
+      "headerCW": 768,
+      "h1s": [
+        {
+          "text": "TALKTO THESTUDIO.",
+          "sw": 720,
+          "cw": 720,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 768,
+            "r": 1216,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 770,
+            "r": 1216,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 786,
+            "r": 876,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1108,
+            "r": 1200,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 770,
+            "r": 1216,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 969,
+            "r": 1017,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 887,
+            "r": 1099,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 888,
+            "r": 1098,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/product/orbit-runner-01",
+      "sw": 770,
+      "vw": 768,
+      "overflow": true,
+      "headerOverflow": false,
+      "headerSW": 768,
+      "headerCW": 768,
+      "h1s": [
+        {
+          "text": "ORBIT 01 “CONCRETE WAVE”",
+          "sw": 720,
+          "cw": 720,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 768,
+            "r": 1216,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 770,
+            "r": 1216,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 786,
+            "r": 876,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1108,
+            "r": 1200,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 770,
+            "r": 1216,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 969,
+            "r": 1017,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 887,
+            "r": 1099,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 888,
+            "r": 1098,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/checkout",
+      "sw": 770,
+      "vw": 768,
+      "overflow": true,
+      "headerOverflow": false,
+      "headerSW": 768,
+      "headerCW": 768,
+      "h1s": [
+        {
+          "text": "FINALSTEPS.",
+          "sw": 175,
+          "cw": 175,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 768,
+            "r": 1216,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 770,
+            "r": 1216,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 786,
+            "r": 876,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1108,
+            "r": 1200,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 770,
+            "r": 1216,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 969,
+            "r": 1017,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 887,
+            "r": 1099,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 888,
+            "r": 1098,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/",
+      "sw": 1024,
+      "vw": 1024,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1024,
+      "headerCW": 1024,
+      "h1s": [
+        {
+          "text": "BUILTFROMMOTION.",
+          "sw": 976,
+          "cw": 976,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1024,
+            "r": 1472,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1026,
+            "r": 1472,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1042,
+            "r": 1132,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1364,
+            "r": 1456,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1026,
+            "r": 1472,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 1225,
+            "r": 1273,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 1143,
+            "r": 1355,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1144,
+            "r": 1354,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/shop",
+      "sw": 1024,
+      "vw": 1024,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1024,
+      "headerCW": 1024,
+      "h1s": [
+        {
+          "text": "THEINDEX.",
+          "sw": 976,
+          "cw": 976,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1024,
+            "r": 1472,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1026,
+            "r": 1472,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1042,
+            "r": 1132,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1364,
+            "r": 1456,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1026,
+            "r": 1472,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 1225,
+            "r": 1273,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 1143,
+            "r": 1355,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1144,
+            "r": 1354,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/about",
+      "sw": 1024,
+      "vw": 1024,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1024,
+      "headerCW": 1024,
+      "h1s": [
+        {
+          "text": "WE DON’TMAKE SHOES.WE MAKEDECISIONS.",
+          "sw": 976,
+          "cw": 976,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1024,
+            "r": 1472,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1026,
+            "r": 1472,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1042,
+            "r": 1132,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1364,
+            "r": 1456,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1026,
+            "r": 1472,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 1225,
+            "r": 1273,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 1143,
+            "r": 1355,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1144,
+            "r": 1354,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/contact",
+      "sw": 1024,
+      "vw": 1024,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1024,
+      "headerCW": 1024,
+      "h1s": [
+        {
+          "text": "TALKTO THESTUDIO.",
+          "sw": 976,
+          "cw": 976,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1024,
+            "r": 1472,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1026,
+            "r": 1472,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1042,
+            "r": 1132,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1364,
+            "r": 1456,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1026,
+            "r": 1472,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 1225,
+            "r": 1273,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 1143,
+            "r": 1355,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1144,
+            "r": 1354,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/product/orbit-runner-01",
+      "sw": 1024,
+      "vw": 1024,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1024,
+      "headerCW": 1024,
+      "h1s": [
+        {
+          "text": "ORBIT 01 “CONCRETE WAVE”",
+          "sw": 453,
+          "cw": 453,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1024,
+            "r": 1472,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1026,
+            "r": 1472,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1042,
+            "r": 1132,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1364,
+            "r": 1456,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1026,
+            "r": 1472,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 1225,
+            "r": 1273,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 1143,
+            "r": 1355,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1144,
+            "r": 1354,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "route": "/checkout",
+      "sw": 1024,
+      "vw": 1024,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1024,
+      "headerCW": 1024,
+      "h1s": [
+        {
+          "text": "FINALSTEPS.",
+          "sw": 233,
+          "cw": 233,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1024,
+            "r": 1472,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1026,
+            "r": 1472,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1042,
+            "r": 1132,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1364,
+            "r": 1456,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1026,
+            "r": 1472,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 1225,
+            "r": 1273,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 1143,
+            "r": 1355,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1144,
+            "r": 1354,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "sw": 1440,
+      "vw": 1440,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1440,
+      "headerCW": 1440,
+      "h1s": [
+        {
+          "text": "BUILTFROMMOTION.",
+          "sw": 1392,
+          "cw": 1392,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1440,
+            "r": 1888,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1442,
+            "r": 1888,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1458,
+            "r": 1548,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1780,
+            "r": 1872,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1442,
+            "r": 1888,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 1641,
+            "r": 1689,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 1559,
+            "r": 1771,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1560,
+            "r": 1770,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/shop",
+      "sw": 1440,
+      "vw": 1440,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1440,
+      "headerCW": 1440,
+      "h1s": [
+        {
+          "text": "THEINDEX.",
+          "sw": 1392,
+          "cw": 1392,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1440,
+            "r": 1888,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1442,
+            "r": 1888,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1458,
+            "r": 1548,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1780,
+            "r": 1872,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1442,
+            "r": 1888,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 1641,
+            "r": 1689,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 1559,
+            "r": 1771,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1560,
+            "r": 1770,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/about",
+      "sw": 1440,
+      "vw": 1440,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1440,
+      "headerCW": 1440,
+      "h1s": [
+        {
+          "text": "WE DON’TMAKE SHOES.WE MAKEDECISIONS.",
+          "sw": 1392,
+          "cw": 1392,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1440,
+            "r": 1888,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1442,
+            "r": 1888,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1458,
+            "r": 1548,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1780,
+            "r": 1872,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1442,
+            "r": 1888,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 1641,
+            "r": 1689,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 1559,
+            "r": 1771,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1560,
+            "r": 1770,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/contact",
+      "sw": 1440,
+      "vw": 1440,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1440,
+      "headerCW": 1440,
+      "h1s": [
+        {
+          "text": "TALKTO THESTUDIO.",
+          "sw": 1392,
+          "cw": 1392,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1440,
+            "r": 1888,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1442,
+            "r": 1888,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1458,
+            "r": 1548,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1780,
+            "r": 1872,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1442,
+            "r": 1888,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 1641,
+            "r": 1689,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 1559,
+            "r": 1771,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1560,
+            "r": 1770,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/product/orbit-runner-01",
+      "sw": 1440,
+      "vw": 1440,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1440,
+      "headerCW": 1440,
+      "h1s": [
+        {
+          "text": "ORBIT 01 “CONCRETE WAVE”",
+          "sw": 656,
+          "cw": 656,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1440,
+            "r": 1888,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1442,
+            "r": 1888,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1458,
+            "r": 1548,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1780,
+            "r": 1872,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1442,
+            "r": 1888,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 1641,
+            "r": 1689,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 1559,
+            "r": 1771,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1560,
+            "r": 1770,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/checkout",
+      "sw": 1440,
+      "vw": 1440,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1440,
+      "headerCW": 1440,
+      "h1s": [
+        {
+          "text": "FINALSTEPS.",
+          "sw": 329,
+          "cw": 329,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1440,
+            "r": 1888,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1442,
+            "r": 1888,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1458,
+            "r": 1548,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 1780,
+            "r": 1872,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1442,
+            "r": 1888,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 1641,
+            "r": 1689,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 1559,
+            "r": 1771,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1560,
+            "r": 1770,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "route": "/",
+      "sw": 1920,
+      "vw": 1920,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1920,
+      "headerCW": 1920,
+      "h1s": [
+        {
+          "text": "BUILTFROMMOTION.",
+          "sw": 1872,
+          "cw": 1872,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1920,
+            "r": 2368,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1922,
+            "r": 2368,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1938,
+            "r": 2028,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 2260,
+            "r": 2352,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1922,
+            "r": 2368,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 2121,
+            "r": 2169,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 2039,
+            "r": 2251,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 2040,
+            "r": 2250,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "route": "/shop",
+      "sw": 1920,
+      "vw": 1920,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1920,
+      "headerCW": 1920,
+      "h1s": [
+        {
+          "text": "THEINDEX.",
+          "sw": 1600,
+          "cw": 1600,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1920,
+            "r": 2368,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1922,
+            "r": 2368,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1938,
+            "r": 2028,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 2260,
+            "r": 2352,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1922,
+            "r": 2368,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 2121,
+            "r": 2169,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 2039,
+            "r": 2251,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 2040,
+            "r": 2250,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "route": "/about",
+      "sw": 1920,
+      "vw": 1920,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1920,
+      "headerCW": 1920,
+      "h1s": [
+        {
+          "text": "WE DON’TMAKE SHOES.WE MAKEDECISIONS.",
+          "sw": 1600,
+          "cw": 1600,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1920,
+            "r": 2368,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1922,
+            "r": 2368,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1938,
+            "r": 2028,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 2260,
+            "r": 2352,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1922,
+            "r": 2368,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 2121,
+            "r": 2169,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 2039,
+            "r": 2251,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 2040,
+            "r": 2250,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "route": "/contact",
+      "sw": 1920,
+      "vw": 1920,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1920,
+      "headerCW": 1920,
+      "h1s": [
+        {
+          "text": "TALKTO THESTUDIO.",
+          "sw": 1400,
+          "cw": 1400,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1920,
+            "r": 2368,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1922,
+            "r": 2368,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1938,
+            "r": 2028,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 2260,
+            "r": 2352,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1922,
+            "r": 2368,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 2121,
+            "r": 2169,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 2039,
+            "r": 2251,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 2040,
+            "r": 2250,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "route": "/product/orbit-runner-01",
+      "sw": 1920,
+      "vw": 1920,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1920,
+      "headerCW": 1920,
+      "h1s": [
+        {
+          "text": "ORBIT 01 “CONCRETE WAVE”",
+          "sw": 734,
+          "cw": 734,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1920,
+            "r": 2368,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1922,
+            "r": 2368,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1938,
+            "r": 2028,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 2260,
+            "r": 2352,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1922,
+            "r": 2368,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 2121,
+            "r": 2169,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 2039,
+            "r": 2251,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 2040,
+            "r": 2250,
+            "w": 211
+          }
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "route": "/checkout",
+      "sw": 1920,
+      "vw": 1920,
+      "overflow": false,
+      "headerOverflow": false,
+      "headerSW": 1920,
+      "headerCW": 1920,
+      "h1s": [
+        {
+          "text": "FINALSTEPS.",
+          "sw": 338,
+          "cw": 338,
+          "overflow": false
+        }
+      ],
+      "wide": [
+        {
+          "tag": "ASIDE",
+          "cls": "absolute right-0 top-0 flex h-full w-full max-w-md flex-col border-l-2 border-in",
+          "text": "CART [00]CLOSE [X]0NOTHING IN THE BAG YET.BROWSE F",
+          "rect": {
+            "l": 1920,
+            "r": 2368,
+            "w": 448
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex items-center justify-between border-b-2 border-ink px-4 py-4",
+          "text": "CART [00]CLOSE [X]",
+          "rect": {
+            "l": 1922,
+            "r": 2368,
+            "w": 446
+          }
+        },
+        {
+          "tag": "H2",
+          "cls": "font-mono text-xs uppercase tracking-[0.25em]",
+          "text": "CART [00]",
+          "rect": {
+            "l": 1938,
+            "r": 2028,
+            "w": 90
+          }
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "border-2 border-ink px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] h",
+          "text": "CLOSE [X]",
+          "rect": {
+            "l": 2260,
+            "r": 2352,
+            "w": 92
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "flex flex-1 flex-col items-center justify-center gap-4 p-6 text-center",
+          "text": "0NOTHING IN THE BAG YET.BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 1922,
+            "r": 2368,
+            "w": 446
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "font-display text-7xl leading-none",
+          "text": "0",
+          "rect": {
+            "l": 2121,
+            "r": 2169,
+            "w": 48
+          }
+        },
+        {
+          "tag": "P",
+          "cls": "font-mono text-[11px] uppercase tracking-[0.2em] text-grey2",
+          "text": "NOTHING IN THE BAG YET.",
+          "rect": {
+            "l": 2039,
+            "r": 2251,
+            "w": 212
+          }
+        },
+        {
+          "tag": "A",
+          "cls": "btn-brut mt-2",
+          "text": "BROWSE FOOTWEAR →",
+          "rect": {
+            "l": 2040,
+            "r": 2250,
+            "w": 211
+          }
+        }
+      ]
+    }
+  ],
+  "forms": {
+    "contact": {
+      "success": true,
+      "activeElement": "BODY:Skip to contentSATELLITE®ShopS"
+    },
+    "newsletter": {
+      "success": true,
+      "activeElement": "BODY:Skip to contentSATELLITE®ShopS"
+    },
+    "checkout": {
+      "success": true,
+      "cartAfterOrder": "{\"items\":[{\"slug\":\"orbit-runner-01\",\"name\":\"ORBIT RUNNER 01\",\"price\":8990,\"size\":42,\"index\":\"01\",\"image\":\"/images/1.webp\",\"qty\":1}],\"wish\":[]}",
+      "summary": "SKIP TO CONTENT\nSATELLITE\n®\nSHOP\nSTUDIO\nCONTACT\nAUTO:ON\nSEARCH\nCART [01]\nCART [01]\nCLOSE [X]\nORBIT RUNNER 01\n01\n\nSIZE EU 42 / QTY\n\n−\n1\n+\n₹8,990\nREMOVE\nSUBTOTAL\n₹8,990\nSHIPPING\nFREE / IN\nTOTAL\n₹8,990\nCHECKOUT → RAZORPAY\n\nGST INCLUDED · 14-DAY RETURNS · SECURE PAYMENT\n\nORDER / CONFIRMED\nYOU\nMOVED.\nORD"
+    }
+  },
+  "quickAdd": {
+    "clickedSizeChoice": false,
+    "cartText": "CART [01]\nCLOSE [X]\nORBIT 01 “CONCRETE WAVE”\n001\n\nSIZE EU 44 / QTY\n\n−\n1\n+\n₹8,490\nREMOVE\nSUBTOTAL\n₹8,490\nSHIPPING\nFREE / IN\nTOTAL\n₹8,490\nCHECKOUT → RAZORPAY\n\nGST INCLUDED · 14-DAY RETURNS · SECURE PAYMENT",
+    "pickedMiddleSize": false,
+    "addedWithoutPicker": true,
+    "localStorage": "{\"items\":[{\"slug\":\"orbit-runner-01\",\"name\":\"ORBIT 01 “CONCRETE WAVE”\",\"price\":8490,\"size\":44,\"index\":\"001\",\"image\":\"/images/16.webp\",\"qty\":1}],\"wish\":[]}"
+  },
+  "autoplay": {
+    "frame0": "34",
+    "frame1": "34",
+    "autoText": "AUTO:ON",
+    "canvasInfo": {
+      "w": 1440,
+      "h": 900,
+      "cw": 1440,
+      "ch": 900,
+      "sample": 130
+    },
+    "collectionIdleFrame": "134",
+    "collectionHoverFrame": "159",
+    "collectionTouchedByAutoplay": true,
+    "reduced": {
+      "frame": "1",
+      "autoText": "AUTO:OFF"
+    }
+  },
+  "crossBrowser": {
+    "chrome": {
+      "errors": [],
+      "sw": 390,
+      "vw": 390,
+      "frame": "34",
+      "canvas": {
+        "w": 585,
+        "h": 1266,
+        "cw": 390,
+        "ch": 844
+      }
+    },
+    "edge": {
+      "errors": [],
+      "sw": 390,
+      "vw": 390,
+      "frame": "34",
+      "canvas": {
+        "w": 585,
+        "h": 1266,
+        "cw": 390,
+        "ch": 844
+      }
+    }
+  },
+  "wishlist": {
+    "stored": [
+      "orbit-runner-01"
+    ],
+    "headerText": "SATELLITE\n®\nSHOP\nSTUDIO\nCONTACT\nAUTO:ON\nSEARCH\nCART [01]",
+    "wishlistLinks": [],
+    "bodyMentionsWishlist": false
+  }
+}

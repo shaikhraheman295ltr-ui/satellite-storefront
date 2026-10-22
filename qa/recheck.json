@@ -1,0 +1,127 @@
+{
+  "overflow768": {
+    "/": {
+      "scrollWidth": 768,
+      "innerWidth": 768,
+      "overflow": 0,
+      "footerSocial": [
+        {
+          "text": "IG",
+          "left": 657.3,
+          "right": 689.3,
+          "top": 16479.4
+        },
+        {
+          "text": "X",
+          "left": 697.3,
+          "right": 722.3,
+          "top": 16479.4
+        },
+        {
+          "text": "YT",
+          "left": 657.3,
+          "right": 689.3,
+          "top": 16513.4
+        }
+      ]
+    },
+    "/about": {
+      "scrollWidth": 768,
+      "innerWidth": 768,
+      "overflow": 0,
+      "footerSocial": [
+        {
+          "text": "IG",
+          "left": 657.3,
+          "right": 689.3,
+          "top": 3426.3
+        },
+        {
+          "text": "X",
+          "left": 697.3,
+          "right": 722.3,
+          "top": 3426.3
+        },
+        {
+          "text": "YT",
+          "left": 657.3,
+          "right": 689.3,
+          "top": 3460.3
+        }
+      ]
+    },
+    "/shop": {
+      "scrollWidth": 768,
+      "innerWidth": 768,
+      "overflow": 0,
+      "footerSocial": [
+        {
+          "text": "IG",
+          "left": 657.3,
+          "right": 689.3,
+          "top": 2251.9
+        },
+        {
+          "text": "X",
+          "left": 697.3,
+          "right": 722.3,
+          "top": 2251.9
+        },
+        {
+          "text": "YT",
+          "left": 657.3,
+          "right": 689.3,
+          "top": 2285.9
+        }
+      ]
+    }
+  },
+  "mobileCollection": {
+    "sectionTop": 12893.90625,
+    "frameA": "9",
+    "frameB": "48",
+    "autoplays": true,
+    "viewport": {
+      "frame": {
+        "top": 21.5,
+        "bottom": 220.7,
+        "height": 199.1
+      },
+      "canHover": false
+    },
+    "v1DesktopFrames": [
+      "/frames/v1/f0218.webp"
+    ],
+    "v1MobileFrames": 124,
+    "otherDesktopFrames": [
+      "/frames/2.1/f0001.webp",
+      "/frames/2.2/f0001.webp",
+      "/frames/2.3/f0001.webp"
+    ]
+  },
+  "cursorNarrow": {
+    "rootClass": true,
+    "display": "block",
+    "opacity": "1",
+    "transform": "matrix(1, 0, 0, 1, 336, 386)",
+    "bodyCursor": "none"
+  },
+  "cursorTouch": {
+    "fine": false,
+    "rootClass": false,
+    "bodyCursor": "auto"
+  },
+  "v1Scrub": {
+    "before": "1",
+    "after": "120",
+    "afterIdle": "34",
+    "scrollWorks": true,
+    "noContinuousLoop": false
+  },
+  "sizePicker": {
+    "count": 1,
+    "size": 41,
+    "name": "ORBIT 01 “CONCRETE WAVE”",
+    "dialogOpen": true
+  }
+}
