@@ -10,6 +10,12 @@ Next.js 15 (App Router) · TypeScript · Tailwind · Zustand · Lenis
 Canvas frame playback (WebP) · GSAP available for future accents
 ```
 
+## Live demo
+
+**[https://satellite-storefront.vercel.app](https://satellite-storefront.vercel.app)**
+
+Production deployment on Vercel.
+
 ## Quick start
 
 ```bash
