@@ -7,6 +7,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { products } from "@/data/products";
 import { useUI } from "@/store/ui";
 import { formatINR } from "@/lib/format";
+import { lockScroll, unlockScroll } from "@/lib/scrollLock";
 
 export default function SearchOverlay() {
   const open = useUI((s) => s.searchOpen);
@@ -29,9 +30,11 @@ export default function SearchOverlay() {
     if (open) {
       lastFocus.current = document.activeElement as HTMLElement | null;
       setQ("");
+      lockScroll();
       setTimeout(() => inputRef.current?.focus(), 40);
       (window as any).__lenis?.stop();
     } else {
+      unlockScroll();
       (window as any).__lenis?.start();
       lastFocus.current?.focus?.();
     }
@@ -70,18 +73,18 @@ export default function SearchOverlay() {
       aria-label="Search products"
       onKeyDown={trapFocus}
     >
-      <div className="flex items-center justify-between border-b-2 border-ink px-4 py-3 font-mono text-[10px] uppercase tracking-[0.25em]">
+      <div className="flex items-center justify-between border-b-2 border-ink py-3 pl-[calc(1rem+env(safe-area-inset-left))] pr-[calc(1rem+env(safe-area-inset-right))] font-mono text-[10px] uppercase tracking-[0.25em]">
         <span>SEARCH / INDEX</span>
         <button
           type="button"
           onClick={() => toggleSearch(false)}
-          className="border-2 border-ink px-2 py-1 hover:bg-ink hover:text-bg"
+          className="border-2 border-ink px-2.5 py-1.5 hover:bg-ink hover:text-bg"
         >
           CLOSE [ESC]
         </button>
       </div>
 
-      <div className="border-b-2 border-ink px-4 pb-4 pt-6 md:px-6">
+      <div className="border-b-2 border-ink pb-4 pt-6 pl-[calc(1rem+env(safe-area-inset-left))] pr-[calc(1rem+env(safe-area-inset-right))]">
         <label htmlFor="search-input" className="meta">QUERY</label>
         <input
           ref={inputRef}
@@ -99,7 +102,7 @@ export default function SearchOverlay() {
         />
       </div>
 
-      <div className="flex-1 overflow-y-auto">
+      <div className="flex-1 overflow-y-auto overscroll-contain">
         <div className="mx-auto max-w-[1600px] px-4 py-6 md:px-6">
           <p className="meta mb-4">
             {results.length} RESULT{results.length === 1 ? "" : "S"} / {q ? `“${q}”` : "RECENT + FEATURED"}

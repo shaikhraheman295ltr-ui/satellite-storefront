@@ -97,7 +97,7 @@ export default function ProductCard({
           onClick={() => toggleWish(product.slug)}
           aria-pressed={wished}
           aria-label={wished ? "Remove from wishlist" : "Save to wishlist"}
-          className={`absolute right-2 top-2 z-20 flex h-7 w-7 items-center justify-center border border-ink font-mono text-xs transition-colors ${
+          className={`absolute right-2 top-2 z-20 flex h-8 w-8 items-center justify-center border border-ink font-mono text-xs transition-colors ${
             wished ? "bg-accent text-bg" : "bg-bg text-ink hover:bg-ink hover:text-bg"
           }`}
         >

@@ -56,7 +56,7 @@ export default function Newsletter() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="EMAIL ADDRESS"
-                className="flex-1 bg-bg px-4 py-4 font-mono text-xs uppercase tracking-[0.15em] text-ink placeholder:text-grey2 focus:outline-none"
+                className="flex-1 bg-bg px-4 py-4 font-mono text-base uppercase tracking-[0.15em] text-ink placeholder:text-grey2 focus:outline-none"
               />
               <button type="submit" className="border-t-2 border-ink bg-ink px-6 py-4 font-mono text-xs uppercase tracking-[0.2em] text-bg hover:bg-accent hover:text-bg sm:border-l-2 sm:border-t-0">
                 SUBSCRIBE →

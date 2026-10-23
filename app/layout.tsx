@@ -71,6 +71,12 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  /* cover lets fixed UI tuck into notch/home-indicator insets (see safe-area
+     paddings) and is what "add to home screen" installs expect. */
+  viewportFit: "cover",
+  /* Android: viewport resizes when the keyboard opens instead of the fixed
+     overlay floating untouched above it. */
+  interactiveWidget: "resizes-content",
   themeColor: "#F2F0EB",
 };
 

@@ -107,7 +107,7 @@ export default function ShopGrid() {
             step={500}
             value={max}
             onChange={(e) => setMax(Number(e.target.value))}
-            className="h-1 w-full appearance-none bg-ink accent-[#FF3B00]"
+            className="w-full"
             aria-label="Maximum price"
           />
           <div className="mt-2 flex justify-between font-mono text-[10px] tracking-[0.1em]">

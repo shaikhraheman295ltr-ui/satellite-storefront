@@ -470,7 +470,7 @@ export default function FrameSequence({
         ref={frameRef}
         className={`${
           mode === "pin"
-            ? "sticky top-0 h-screen"
+            ? "sticky top-0 h-vp"
             : "relative aspect-video h-auto md:h-[62vh]"
         } w-full overflow-hidden`}
       >

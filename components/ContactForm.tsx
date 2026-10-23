@@ -50,7 +50,7 @@ export default function ContactForm() {
             required
             value={form.name}
             onChange={(e) => setForm({ ...form, name: e.target.value })}
-            className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-sm focus:outline-none"
+            className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-base focus:outline-none"
             placeholder="FULL NAME"
           />
         </label>
@@ -61,7 +61,7 @@ export default function ContactForm() {
             type="email"
             value={form.email}
             onChange={(e) => setForm({ ...form, email: e.target.value })}
-            className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-sm focus:outline-none"
+            className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-base focus:outline-none"
             placeholder="YOU@DOMAIN.COM"
           />
         </label>
@@ -93,7 +93,7 @@ export default function ContactForm() {
           rows={5}
           value={form.message}
           onChange={(e) => setForm({ ...form, message: e.target.value })}
-          className="mt-1 w-full resize-none border-2 border-ink bg-transparent p-3 font-mono text-sm focus:outline-none"
+          className="mt-1 w-full resize-none border-2 border-ink bg-transparent p-3 font-mono text-base focus:outline-none"
           placeholder="TELL US WHAT'S WRONG, WHAT YOU NEED, OR WHY YOU'RE HERE."
         />
       </label>

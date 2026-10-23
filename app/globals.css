@@ -23,6 +23,8 @@
 
 html {
   -webkit-font-smoothing: antialiased;
+  /* Stop iOS font-boost / text inflation on rotation. */
+  -webkit-text-size-adjust: 100%;
   scroll-behavior: initial; /* Lenis owns scrolling */
 }
 
@@ -42,6 +44,86 @@ body {
 :focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 2px;
+}
+
+/* ---------------- Mobile platform layer ---------------- */
+
+/* No gray flash where a finger lands. */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Drop the double-tap-zoom delay on interactive things (pinch-zoom stays
+   untouched — the page is never zoom-locked). */
+a,
+button,
+[role="button"],
+label,
+input,
+select,
+textarea {
+  touch-action: manipulation;
+}
+
+/* Long-press on a control shouldn't pop the text-selection callout. */
+a,
+button,
+[role="button"] {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Press feedback on touch screens, where the (now hover-gated) hover styles
+   can't reach. .btn-brut has its own designed press state below. */
+@media (hover: none) {
+  a:active,
+  button:not(:disabled):not(.btn-brut):active,
+  [role="button"]:active {
+    opacity: 0.65;
+  }
+}
+
+/* Full viewport height without the iOS 100vh URL-bar bug — used by the
+   pinned frame sequences so the full-bleed media always fits what's visible. */
+.h-vp {
+  height: 100vh;
+}
+@supports (height: 100dvh) {
+  .h-vp {
+    height: 100dvh;
+  }
+}
+
+/* Brutalist range input (shop price filter): visible square thumb instead of
+   the invisible thumb appearance:none leaves behind, sized for fingers. */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  background: var(--ink);
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  background: var(--ink);
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  margin-top: -7px;
+  background: var(--accent);
+  border: 2px solid var(--ink);
+}
+input[type="range"]::-moz-range-track {
+  height: 4px;
+  background: var(--ink);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  background: var(--accent);
+  border: 2px solid var(--ink);
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -177,7 +259,18 @@ body {
   transition: background 0.15s linear, color 0.15s linear, box-shadow 0.15s linear, transform 0.15s linear;
   box-shadow: 4px 4px 0 var(--ink);
 }
-.btn-brut:hover {
+/* Hovers only exist where hover exists — sticky :hover after a tap on touch
+   looked like a stuck pressed-in button. */
+@media (hover: hover) {
+  .btn-brut:hover {
+    background: var(--ink);
+    color: var(--bg);
+    box-shadow: 0 0 0 var(--ink);
+    transform: translate(2px, 2px);
+  }
+}
+/* The press itself is the interaction on touch: sink into the hard shadow. */
+.btn-brut:active {
   background: var(--ink);
   color: var(--bg);
   box-shadow: 0 0 0 var(--ink);
@@ -186,7 +279,15 @@ body {
 .btn-brut-accent {
   box-shadow: 4px 4px 0 var(--accent);
 }
-.btn-brut-accent:hover {
+@media (hover: hover) {
+  .btn-brut-accent:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--bg);
+    box-shadow: 0 0 0 var(--accent);
+  }
+}
+.btn-brut-accent:active {
   background: var(--accent);
   border-color: var(--accent);
   color: var(--bg);
@@ -196,7 +297,14 @@ body {
   @apply border-2 border-invertink bg-invertbg text-invertink;
   box-shadow: 4px 4px 0 var(--invert-ink);
 }
-.btn-brut-invert:hover {
+@media (hover: hover) {
+  .btn-brut-invert:hover {
+    background: var(--invert-ink);
+    color: var(--invert-bg);
+    box-shadow: 0 0 0 var(--invert-ink);
+  }
+}
+.btn-brut-invert:active {
   background: var(--invert-ink);
   color: var(--invert-bg);
   box-shadow: 0 0 0 var(--invert-ink);
@@ -229,6 +337,11 @@ body {
   font-size: clamp(2.2rem, 6vw, 5.5rem);
 }
 
+/* Hard-cornered everything */
+* {
+  border-radius: 0 !important;
+}
+
 /* Type that sits directly on film stills */
 .film-type {
   text-shadow: 0 4px 28px rgba(10, 10, 10, 0.4);
@@ -243,11 +356,6 @@ body {
   display: flex;
   width: max-content;
   animation: marquee-x linear infinite;
-}
-
-/* Hard-cornered everything */
-* {
-  border-radius: 0 !important;
 }
 
 /* Crosshair decorations */

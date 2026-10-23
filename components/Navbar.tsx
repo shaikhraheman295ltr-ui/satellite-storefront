@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { useCart, cartCount } from "@/store/cart";
 import { useUI } from "@/store/ui";
+import { lockScroll, unlockScroll } from "@/lib/scrollLock";
 
 export default function Navbar() {
   const items = useCart((s) => s.items);
@@ -31,6 +32,7 @@ export default function Navbar() {
     if (!menu) return;
     lastMenuFocus.current = document.activeElement as HTMLElement | null;
     (window as any).__lenis?.stop();
+    lockScroll();
     const t = setTimeout(() => menuCloseRef.current?.focus(), 50);
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") setMenu(false);
@@ -39,6 +41,7 @@ export default function Navbar() {
     return () => {
       clearTimeout(t);
       window.removeEventListener("keydown", onKey);
+      unlockScroll();
       (window as any).__lenis?.start();
       lastMenuFocus.current?.focus?.();
     };
@@ -69,7 +72,7 @@ export default function Navbar() {
       >
         Skip to content
       </a>
-      <header className="fixed inset-x-0 top-0 z-[100] bg-ink text-invertink">
+      <header className="fixed inset-x-0 top-0 z-[100] bg-ink pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)] text-invertink">
         <div className="flex h-14 items-center justify-between border-b border-white/15 px-4 md:h-16 md:px-6">
           <Link href="/" className="group flex items-baseline gap-2" aria-label="SATELLITE home">
             <span className="font-display text-lg uppercase leading-none tracking-[-0.04em] md:text-xl">
@@ -133,7 +136,7 @@ export default function Navbar() {
           aria-modal="true"
           aria-label="Menu"
           onKeyDown={trapMenu}
-          className="fixed inset-0 z-[150] flex flex-col bg-ink p-4 text-invertink"
+          className="fixed inset-0 z-[150] flex flex-col bg-ink pb-[calc(1rem+env(safe-area-inset-bottom))] pl-[calc(1rem+env(safe-area-inset-left))] pr-[calc(1rem+env(safe-area-inset-right))] pt-[calc(1rem+env(safe-area-inset-top))] text-invertink"
         >
           <div className="flex items-center justify-between border-b-2 border-invertink/25 pb-3 font-mono text-[10px] uppercase tracking-[0.2em]">
             <span>SATELLITE® — INDEX</span>

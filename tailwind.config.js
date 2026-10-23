@@ -5,6 +5,11 @@ module.exports = {
     "./components/**/*.{ts,tsx}",
     "./lib/**/*.{ts,tsx}",
   ],
+  /* hover:/group-hover: only apply where hover actually exists —
+     kills the sticky-hover state that lingers after a tap on touch. */
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   theme: {
     extend: {
       colors: {

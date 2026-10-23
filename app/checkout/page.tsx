@@ -99,11 +99,11 @@ export default function CheckoutPage() {
                 <div className="grid gap-4 p-4 sm:grid-cols-2">
                   <label className="block">
                     <span className="meta">EMAIL *</span>
-                    <input required type="email" value={form.email} onChange={set("email")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-sm focus:outline-none" placeholder="YOU@DOMAIN.COM" />
+                    <input required type="email" value={form.email} onChange={set("email")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-base focus:outline-none" placeholder="YOU@DOMAIN.COM" />
                   </label>
                   <label className="block">
                     <span className="meta">PHONE *</span>
-                    <input required type="tel" value={form.phone} onChange={set("phone")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-sm focus:outline-none" placeholder="+91" />
+                    <input required type="tel" value={form.phone} onChange={set("phone")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-base focus:outline-none" placeholder="+91" />
                   </label>
                 </div>
               </fieldset>
@@ -113,28 +113,28 @@ export default function CheckoutPage() {
                 <div className="grid gap-4 p-4 sm:grid-cols-2">
                   <label className="block">
                     <span className="meta">FIRST NAME *</span>
-                    <input required value={form.first} onChange={set("first")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-sm focus:outline-none" />
+                    <input required value={form.first} onChange={set("first")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-base focus:outline-none" />
                   </label>
                   <label className="block">
                     <span className="meta">LAST NAME *</span>
-                    <input required value={form.last} onChange={set("last")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-sm focus:outline-none" />
+                    <input required value={form.last} onChange={set("last")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-base focus:outline-none" />
                   </label>
                   <label className="block sm:col-span-2">
                     <span className="meta">ADDRESS *</span>
-                    <input required value={form.address} onChange={set("address")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-sm focus:outline-none" placeholder="STREET, BUILDING, FLAT" />
+                    <input required value={form.address} onChange={set("address")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-base focus:outline-none" placeholder="STREET, BUILDING, FLAT" />
                   </label>
                   <label className="block">
                     <span className="meta">CITY *</span>
-                    <input required value={form.city} onChange={set("city")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-sm focus:outline-none" />
+                    <input required value={form.city} onChange={set("city")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-base focus:outline-none" />
                   </label>
                   <div className="grid grid-cols-2 gap-4">
                     <label className="block">
                       <span className="meta">STATE *</span>
-                      <input required value={form.state} onChange={set("state")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-sm focus:outline-none" />
+                      <input required value={form.state} onChange={set("state")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-base focus:outline-none" />
                     </label>
                     <label className="block">
                       <span className="meta">PIN *</span>
-                      <input required inputMode="numeric" value={form.pin} onChange={set("pin")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-sm focus:outline-none" />
+                      <input required inputMode="numeric" value={form.pin} onChange={set("pin")} className="mt-1 w-full border-b-2 border-ink bg-transparent py-2 font-mono text-base focus:outline-none" />
                     </label>
                   </div>
                 </div>

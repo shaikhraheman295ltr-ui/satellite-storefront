@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { useCart, subtotal } from "@/store/cart";
 import { formatINR } from "@/lib/format";
+import { lockScroll, unlockScroll } from "@/lib/scrollLock";
 
 export default function CartDrawer() {
   const { items, open, toggleOpen, setQty, remove } = useCart();
@@ -50,8 +51,13 @@ export default function CartDrawer() {
 
   useEffect(() => {
     const lenis = (window as any).__lenis;
-    if (open) lenis?.stop();
-    else lenis?.start();
+    if (open) {
+      lockScroll();
+      lenis?.stop();
+    } else {
+      unlockScroll();
+      lenis?.start();
+    }
   }, [open]);
 
   return (
@@ -106,7 +112,7 @@ export default function CartDrawer() {
           </div>
         ) : (
           <>
-            <ul className="flex-1 divide-y-2 divide-ink/10 overflow-y-auto">
+            <ul className="flex-1 divide-y-2 divide-ink/10 overflow-y-auto overscroll-contain">
               {items.map((it) => (
                 <li key={`${it.slug}-${it.size}`} className="flex gap-3 p-4">
                   <div className="relative h-24 w-20 shrink-0 border-2 border-ink bg-grey1">
@@ -129,18 +135,18 @@ export default function CartDrawer() {
                         <button
                           type="button"
                           onClick={() => setQty(it.slug, it.size, it.qty - 1)}
-                          className="h-7 w-7 font-mono text-sm hover:bg-ink hover:text-bg"
+                          className="h-8 w-8 font-mono text-sm hover:bg-ink hover:text-bg"
                           aria-label="Decrease quantity"
                         >
                           −
                         </button>
-                        <span className="flex h-7 w-8 items-center justify-center border-x-2 border-ink font-mono text-xs">
+                        <span className="flex h-8 w-8 items-center justify-center border-x-2 border-ink font-mono text-xs">
                           {it.qty}
                         </span>
                         <button
                           type="button"
                           onClick={() => setQty(it.slug, it.size, it.qty + 1)}
-                          className="h-7 w-7 font-mono text-sm hover:bg-ink hover:text-bg"
+                          className="h-8 w-8 font-mono text-sm hover:bg-ink hover:text-bg"
                           aria-label="Increase quantity"
                         >
                           +
@@ -162,7 +168,7 @@ export default function CartDrawer() {
               ))}
             </ul>
 
-            <div className="border-t-2 border-ink p-4">
+            <div className="border-t-2 border-ink p-4 pb-[calc(1rem+env(safe-area-inset-bottom))]">
               <dl className="space-y-2 font-mono text-[11px] uppercase tracking-[0.15em]">
                 <div className="flex justify-between">
                   <dt className="text-grey2">SUBTOTAL</dt>
