@@ -196,6 +196,30 @@ export const products: Product[] = [
       img("8", 736, 909),
     ],
   },
+  {
+    slug: "vector-runner-s1",
+    id: "P-09",
+    index: "009",
+    name: "VECTOR RUNNER 02 “OBSIDIAN ROPE”",
+    category: "RUNNER",
+    price: 9290,
+    colorway: "OBSIDIAN / ROPE RED",
+    sizes: [41, 42, 43, 44, 45, 46],
+    drop: "DROP 04 — 2026",
+    short: "Laced down and locked in. The dark slab, shot under tension.",
+    story:
+      "A matte-black runner cinched by red rigging — built for pavements that pull back. Shot mid-tension in the studio.",
+    specs: [
+      { k: "UPPER", v: "Matte ripstop + suede cage" },
+      { k: "SOLE", v: "Segmented cupsole, 38 mm" },
+      { k: "WEIGHT", v: "371 g (EU 42)" },
+      { k: "MADE IN", v: "Aurangabad, India" },
+    ],
+    gallery: [
+      { src: "/images/shop/s1.webp", w: 338, h: 328 },
+      img("14", 736, 1104),
+    ],
+  },
 ];
 
 export const imgOf = img; // re-export helper for inline usage

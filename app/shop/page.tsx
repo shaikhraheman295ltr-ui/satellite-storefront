@@ -3,11 +3,11 @@ import ShopGrid from "@/components/shop/ShopGrid";
 import ShopQuerySync from "@/components/shop/ShopQuerySync";
 import Marquee from "@/components/Marquee";
 import { pageMetadata } from "@/lib/seo";
+import { products } from "@/data/products";
 
 export const metadata = pageMetadata({
   title: "Shop — All Footwear — SATELLITE®",
-  description:
-    "The complete SATELLITE index: eight silhouettes, limited runs, made in India. Runners, loafers, hikers and slip-ons.",
+  description: `The complete SATELLITE index: ${products.length} silhouettes, limited runs, made in India. Runners, loafers, hikers and slip-ons.`,
   path: "/shop",
 });
 
@@ -31,10 +31,13 @@ export default function ShopPage() {
           </h1>
           <div className="mt-6 flex flex-col justify-between gap-3 font-mono text-[10px] uppercase tracking-[0.18em] text-grey2 md:flex-row md:items-end">
             <p className="max-w-md leading-relaxed">
-              EIGHT SILHOUETTES. FOUR HUNDRED PAIRS EACH. EVERY PAIR NUMBERED,
-              NONE RESTOCKED. FILTER IT DOWN OR TAKE IT ALL IN.
+              {products.length} SILHOUETTES. FOUR HUNDRED PAIRS EACH. EVERY PAIR
+              NUMBERED, NONE RESTOCKED. FILTER IT DOWN OR TAKE IT ALL IN.
             </p>
-            <p>SHOWING 08 / 08 — MUMBAI WAREHOUSE</p>
+            <p>
+              SHOWING {String(products.length).padStart(2, "0")} /{" "}
+              {String(products.length).padStart(2, "0")} — MUMBAI WAREHOUSE
+            </p>
           </div>
         </div>
       </section>
