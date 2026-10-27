@@ -19,7 +19,7 @@ export default function CollectionBanner() {
           </div>
           <div className="max-w-xs md:text-right">
             <p className="font-mono text-[10px] uppercase leading-relaxed tracking-[0.16em] text-grey2">
-              EIGHT SILHOUETTES. FOUR HUNDRED PAIRS EACH. WHEN THEY’RE GONE THE
+              FIFTEEN SILHOUETTES. FOUR HUNDRED PAIRS EACH. WHEN THEY’RE GONE THE
               MOULD IS DESTROYED.
             </p>
             <Link href="/shop" className="btn-brut mt-4">

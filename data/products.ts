@@ -65,7 +65,12 @@ export const products: Product[] = [
       { k: "DROP", v: "6 mm heel-to-toe" },
       { k: "MADE IN", v: "Aurangabad, India" },
     ],
-    gallery: [img("15", 736, 899), img("24", 736, 920)],
+    gallery: [
+      img("15", 736, 899),
+      { src: "/images/shop/g1.webp", w: 368, h: 216 },
+      { src: "/images/shop/g2.webp", w: 397, h: 162 },
+      img("24", 736, 920),
+    ],
   },
   {
     slug: "hollow-court",
@@ -85,7 +90,12 @@ export const products: Product[] = [
       { k: "SOLE", v: "Vulcanised rubber herringbone" },
       { k: "MADE IN", v: "Chennai, India" },
     ],
-    gallery: [img("9", 736, 1313), img("7", 540, 720)],
+    gallery: [
+      img("9", 736, 1313),
+      { src: "/images/shop/g3.webp", w: 456, h: 368 },
+      img("13", 672, 1195),
+      img("7", 540, 720),
+    ],
   },
   {
     slug: "meridian-slip",
@@ -105,7 +115,12 @@ export const products: Product[] = [
       { k: "LACES", v: "None. Obviously." },
       { k: "MADE IN", v: "Chennai, India" },
     ],
-    gallery: [img("13", 672, 1195), img("16", 736, 981)],
+    gallery: [
+      img("13", 672, 1195),
+      { src: "/images/shop/g4.webp", w: 349, h: 287 },
+      img("24", 736, 920),
+      img("16", 736, 981),
+    ],
   },
   {
     slug: "terra-terra-hiker",
@@ -127,7 +142,12 @@ export const products: Product[] = [
       { k: "WATER RESIST", v: "DWR treated" },
       { k: "MADE IN", v: "Aurangabad, India" },
     ],
-    gallery: [img("8", 736, 909), img("10", 736, 1308)],
+    gallery: [
+      img("8", 736, 909),
+      { src: "/images/shop/g5.webp", w: 265, h: 136 },
+      { src: "/images/shop/g7.webp", w: 368, h: 288 },
+      img("10", 736, 1308),
+    ],
   },
   {
     slug: "void-chukka",
@@ -147,7 +167,12 @@ export const products: Product[] = [
       { k: "SOLE", v: "Crepe wedge, 30 mm" },
       { k: "MADE IN", v: "Kanpur, India" },
     ],
-    gallery: [img("14", 736, 1104), img("5", 736, 903)],
+    gallery: [
+      img("14", 736, 1104),
+      { src: "/images/shop/g6.webp", w: 265, h: 243 },
+      img("9", 736, 1313),
+      img("5", 736, 903),
+    ],
   },
   {
     slug: "night-owl-mid",
@@ -167,7 +192,12 @@ export const products: Product[] = [
       { k: "SOLE", v: "Dual-density midsole, lugged" },
       { k: "MADE IN", v: "Agra, India" },
     ],
-    gallery: [img("10", 736, 1308), img("14", 736, 1104)],
+    gallery: [
+      img("10", 736, 1308),
+      { src: "/images/shop/g21.webp", w: 684, h: 222 },
+      img("2", 736, 920),
+      img("14", 736, 1104),
+    ],
   },
   {
     slug: "phantom-runner-gt",
@@ -217,6 +247,8 @@ export const products: Product[] = [
     ],
     gallery: [
       { src: "/images/shop/s1.webp", w: 338, h: 328 },
+      { src: "/images/shop/g8.webp", w: 279, h: 177 },
+      { src: "/images/shop/g9.webp", w: 162, h: 184 },
       img("14", 736, 1104),
     ],
   },
@@ -241,6 +273,8 @@ export const products: Product[] = [
     ],
     gallery: [
       { src: "/images/shop/d1.webp", w: 265, h: 248 },
+      { src: "/images/shop/g10.webp", w: 191, h: 129 },
+      { src: "/images/shop/g11.webp", w: 412, h: 221 },
       img("2", 736, 920),
     ],
   },
@@ -265,6 +299,8 @@ export const products: Product[] = [
     ],
     gallery: [
       { src: "/images/shop/d2.webp", w: 316, h: 239 },
+      { src: "/images/shop/g12.webp", w: 324, h: 239 },
+      { src: "/images/shop/g13.webp", w: 294, h: 202 },
       img("2", 736, 920),
     ],
   },
@@ -288,6 +324,8 @@ export const products: Product[] = [
     ],
     gallery: [
       { src: "/images/shop/d3.webp", w: 316, h: 341 },
+      { src: "/images/shop/g14.webp", w: 442, h: 315 },
+      { src: "/images/shop/g15.webp", w: 500, h: 315 },
       img("9", 736, 1313),
     ],
   },
@@ -312,6 +350,8 @@ export const products: Product[] = [
     ],
     gallery: [
       { src: "/images/shop/d4.webp", w: 368, h: 392 },
+      { src: "/images/shop/g16.webp", w: 412, h: 222 },
+      { src: "/images/shop/g17.webp", w: 265, h: 235 },
       img("10", 736, 1308),
     ],
   },
@@ -335,6 +375,8 @@ export const products: Product[] = [
     ],
     gallery: [
       { src: "/images/shop/d5.webp", w: 316, h: 382 },
+      { src: "/images/shop/g18.webp", w: 349, h: 263 },
+      { src: "/images/shop/g19.webp", w: 336, h: 227 },
       img("13", 672, 1195),
     ],
   },
@@ -359,6 +401,8 @@ export const products: Product[] = [
     ],
     gallery: [
       { src: "/images/shop/d6.webp", w: 309, h: 248 },
+      { src: "/images/shop/g20.webp", w: 515, h: 202 },
+      img("15", 736, 899),
       img("2", 736, 920),
     ],
   },
