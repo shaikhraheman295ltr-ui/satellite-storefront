@@ -25,9 +25,10 @@ type Props = {
   scrollHint?: boolean;
   playOnHover?: boolean;
   /**
-   * Continuous muted autoplay while the section is idle. Used for every
-   * sequence except the v1 hero/CTA scroll film. Scrolling scrubs; stopping
-   * resumes the loop. Hover pauses hover-mode sequences.
+   * Continuous muted autoplay. Used for every sequence except the v1
+   * hero/CTA scroll film. The playhead advances on its own while the
+   * sequence is in view — scroll does not scrub it. Hover pauses
+   * hover-mode sequences.
    */
   autoLoop?: boolean;
   /** show the small sequence/frame HUD (bottom-left identity chip) */
@@ -90,8 +91,6 @@ export default function FrameSequence({
     takeScrollable: 1,
     lastDrawn: -1,
     lastEmitted: 1,
-    lastScrollY: 0,
-    lastScrollAt: 0,
     loopStarted: false,
   });
 
@@ -297,12 +296,6 @@ export default function FrameSequence({
         // viewport-intersection test or it silently stays parked.
         const loopInView = rect.bottom > vh * 0.1 && rect.top < vh * 0.9;
         const autoplayOn = useUI.getState().autoplay;
-        const scrollYNow = window.scrollY;
-        if (Math.abs(scrollYNow - dipS.lastScrollY) > 0.5) {
-          dipS.lastScrollY = scrollYNow;
-          dipS.lastScrollAt = now;
-        }
-        const idle = now - dipS.lastScrollAt > 850;
 
         if (
           !autoLoopEnabled &&
@@ -343,9 +336,9 @@ export default function FrameSequence({
         }
 
         /*
-         * Continuous muted autoplay for 2.1 / 2.2 / 2.3.
-         * Scrolling scrubs while it is moving; after 850 ms of stillness the
-         * loop resumes from the frame on screen. Hover pauses the collection.
+         * Pure autoplay for 2.1 / 2.2 / 2.3 — the playhead advances on its
+         * own whenever the sequence is in view; scroll does not scrub it.
+         * Hover still pauses the collection film.
          */
         const loopEligible =
           autoLoopEnabled && autoplayOn && !reduced && loopInView && !dipS.interacted;
@@ -354,7 +347,7 @@ export default function FrameSequence({
             dipS.loopStarted = false;
             dipS.engaged = false;
             p = (dipS.display - 1) / Math.max(1, N - 1);
-          } else if (idle) {
+          } else {
             if (!dipS.loopStarted) {
               dipS.loopStarted = true;
               dipS.playhead = Math.min(N, Math.max(1, dipS.display));
@@ -367,10 +360,6 @@ export default function FrameSequence({
             }
             p = (dipS.playhead - 1) / Math.max(1, N - 1);
             dipS.engaged = true;
-          } else {
-            // The page is scrolling: respect the scroll-scrub position.
-            dipS.loopStarted = false;
-            dipS.engaged = false;
           }
         } else {
           dipS.loopStarted = false;

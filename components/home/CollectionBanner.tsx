@@ -44,7 +44,7 @@ export default function CollectionBanner() {
                 <span>LOOP FILM — 736×414</span>
                 <span className="border border-white/50 px-2 py-1">
                   <span className="hidden md:inline">AUTO-LOOP / HOVER TO PAUSE</span>
-                  <span className="md:hidden">AUTO-LOOP / SCROLL TO SCRUB</span>
+                  <span className="md:hidden">AUTO-LOOP</span>
                 </span>
               </div>
               <div className="flex items-end justify-between gap-3">
